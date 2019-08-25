@@ -65,16 +65,11 @@ export default class Presentation extends React.Component {
             </p>
           </Notes>
         </AboutMeSlide>
-        <DoubleImageSlide
-          fit={false}
-          title="How do we build community"
-          text="How do we build community"
-        >
+        <SimpleSlide inverted fit={false} statement="How do we build community">
           <Notes>
-            <p>
-              So the motivation for this talk came from my experience building ElixirBridge the past few years - but that is not where I want to begin</p>
+          <p> So the motivation for this talk came from my experience building ElixirBridge the past few years - but that is not where I want to begin</p>
           </Notes>
-        </DoubleImageSlide>
+        </SimpleSlide>
         <QuoteSlide
           inverted
           quote="“So much about building software - more than anyone wants to admit--is etiquette - Paul Ford - wired 5.14.19“"
@@ -101,7 +96,7 @@ export default class Presentation extends React.Component {
 
         <QuoteSlide
           inverted
-          quote="“Which also means who is in, who is out. - Paul Ford“"
+          quote="“Which also means who is in, and who is out. - Paul Ford“"
         >
         <Notes>
           <div>
@@ -127,7 +122,7 @@ export default class Presentation extends React.Component {
           </Notes>
         </SimpleSlide>
 
-        <ImageSlide image="tech-leavers-new.png">
+        <ImageSlide image="tech-leavers-new.jpg">
           <Notes>
             <p>2017 an oaklnad based non-profit called the Kapor Center did a study called the tech leavers study</p>
             <ul>
@@ -172,7 +167,7 @@ export default class Presentation extends React.Component {
           </Notes>
         </ImageSlide>
 
-        <SimpleSlide inverted fit={false} statement="Those who know the rules...how understand the etiquette...they have more power">
+        <SimpleSlide inverted fit={false} statement="Those who know the rules...who understand the etiquette...they have more power">
           <Notes>
             <p>
 
@@ -180,7 +175,23 @@ export default class Presentation extends React.Component {
           </Notes>
         </SimpleSlide>
 
-        <SimpleSlide inverted fit={false} statement="And we know that with great power comes great responsibility">
+        <SimpleSlide inverted fit={false} statement="With less power...keep leaving. Show twitter quote">
+          <Notes>
+            <p>
+
+            </p>
+          </Notes>
+        </SimpleSlide>
+
+        <SimpleSlide inverted fit={false} statement="so those of us that know the etiquetter/have the power...">
+          <Notes>
+            <p>
+
+            </p>
+          </Notes>
+        </SimpleSlide>
+
+        <SimpleSlide inverted fit={false} statement="We have a responsibility">
           <Notes>
             <p>
 
@@ -198,23 +209,7 @@ export default class Presentation extends React.Component {
 
         <QuoteSlide
           inverted
-          quote="“Progress is the opening of doors and the leveling of opportunity, the augmentation of the whole human species and the protection of other species besides.
-          Progress is cheerfully facing the truth, whether flooding coastlines or falling teen pregnancy rates,
-           and thinking of ways to preserve the processes that work and mitigate the risks.
-           Progress is seeing calmly, accepting, and thinking of others. - Paul Ford“"
-        >
-        <Notes>
-          <div>
-            <p>He continues to say the following </p>
-          </div>
-        </Notes>
-        </QuoteSlide>
-
-        <QuoteSlide
-          inverted
-          quote="“Progress is the opening of doors and the leveling of opportunity, the augmentation of the whole human species and the protection of other species besides.
-          Progress is cheerfully facing the truth, whether flooding coastlines or falling teen pregnancy rates,
-           and thinking of ways to preserve the processes that work and mitigate the risks.
+          quote="“Progress is the opening of doors and the leveling of opportunity...
            Progress is seeing calmly, accepting, and thinking of others. - Paul Ford“"
         >
         <Notes>
@@ -244,7 +239,7 @@ export default class Presentation extends React.Component {
           </Notes>
         </SimpleSlide>
 
-        <SimpleSlide inverted fit={false} statement="Providing an environment for folks to enter and feel welcome">
+        <SimpleSlide inverted fit={false} statement="Providing an environment for folks to enter and feel welcome and have the tools to effectively participate in the community">
           <Notes>
             <p>
               Providing an environment for folks to enter and feel welcome
@@ -280,8 +275,9 @@ export default class Presentation extends React.Component {
           </Notes>
         </SimpleSlide>
 
-        <ImageSlide image="railsbridge-boston-photo.png">
-              <ul>
+        <ImageSlide image="railsbridge-boston-photo.jpg">
+          <Notes>
+          <ul>
                 <li>ElixirBridge is modeled after railsbridge</li>
                 <li>My start in RailsBridge</li>
                 <li>Interested in Elixir</li>
@@ -294,6 +290,8 @@ export default class Presentation extends React.Component {
               <li>All volunteer run</li>
               <li>Helped Ruby community in SF go from 2% women to 18% women in 1 year(2009-2010)</li>
             </ul>
+          </Notes>
+
         </ImageSlide>
 
 
@@ -315,11 +313,7 @@ export default class Presentation extends React.Component {
         <ImageSlide image="elixirbridge-workshop.jpg">
           <Notes>
             <p> As with everything there are tradeoffs</p>
-          </Notes>
-        </ImageSlide>
-
-        <SimpleSlide inverted fit={false} statement="So back to ElixirBridge">
-          <Notes>
+            <div>
               <li> how it got started</li>
               <li>so far workshops in SF, NYC, SEAttle, but lots of interest in other places</li>
               <h2>Schedule</h2>
@@ -332,27 +326,168 @@ export default class Presentation extends React.Component {
               <li style="padding-bottom: 0px;">12:30 - 1:30pm: Lunch!</li>
               <li style="padding-bottom: 0px;">1:30 - 4:00pm: Session 3</li>
               <li style="padding-bottom: 0px;">4:15 - 4:30pm: Retrospective</li>
-              <lis tyle="padding-bottom: 0px;">4:30 - 5pm: Happy Hour at TBD</li>
+              <li tyle="padding-bottom: 0px;">4:30 - 5pm: Happy Hour at TBD</li>
               </ul>
               <ul>
                 <li>retrospective allows us to make sure we are meeting the needs of our community</li>
                 <li>Happy hour: Students and teachers can connect outside of a workshop setting</li>
                 <li>Another avenue that allows us to help build the community</li>
               </ul>
+             </div>
           </Notes>
-        </SimpleSlide>
+        </ImageSlide>
+
+        <ImageSlide image="elixirbridge-structure.png">
+          <Notes>
+          </Notes>
+        </ImageSlide>
 
         <SimpleSlide
           inverted
           fit={false}
           statement="What has worked for us"
         >
-          <Notes>Good lead off for Hannah to discuss coordination</Notes>
+          <Notes>
+            <p>
+              Return to this idea of welcoming folks
+            </p>
+          </Notes>
+        </SimpleSlide>
+
+        <ImageSlide inverted image="welcome-yall.jpg">
+          <Notes>
+            <p>creating a welcoming inclusive environment so folks want to come into the community</p>
+
+          </Notes>
+        </ImageSlide>
+
+        <SimpleSlide inverted fit={false} statement="But how?">
+          <Notes>
+          <ul>who are the first 10 people your shared elixir with</ul>
+          <ul>does this group reflect the commuinity with want to see</ul>
+          <ul>how else do we do this?</ul>
+          </Notes>
+        </SimpleSlide>
+
+        <SimpleSlide inverted fit={false} statement="Creating a Safe Space">
+          <Notes>
+            <p>how do we help people to feel satisfied</p>
+
+          </Notes>
+        </SimpleSlide>
+
+        <SimpleSlide inverted fit={false} statement="Code of Conduct">
+          <Notes>
+            <ul>
+              <li>Community reflective of the diversity in the general population.</li>
+              <li>A harassment-free experience for everyone</li>
+              <li>Everyone has something to contribute.</li>
+              <li>Anyone is allowed to hold a workshop</li>
+            </ul>
+          </Notes>
+        </SimpleSlide>
+
+        <SimpleSlide inverted fit={false} statement="It is not just enough to have one">
+          <Notes>
+            <ul>
+              <li>Community reflective of the diversity in the general population.</li>
+              <li>A harassment-free experience for everyone</li>
+              <li>Everyone has something to contribute.</li>
+              <li>Anyone is allowed to hold a workshop</li>
+            </ul>
+          </Notes>
         </SimpleSlide>
 
 
+        <SimpleSlide inverted fit={false} statement="Clear Examples of What is expected">
+          <Notes>
+            <ul>
+              <li>Use your words and respect boundaries</li>
+              <li> If you feel like it would help to work directly on someone’s keyboard, ask first.</li>
+              <li>Refer participants to open and free material for follow-up learning.</li>
+              <li> Do not ask anyone out on a date.</li>
+            </ul>
+          </Notes>
+        </SimpleSlide>
 
 
+        <SimpleSlide inverted fit={false} statement="Grey Area">
+          <Notes>
+            <ul>
+              <li>If you are not sure your behavior is appropriate. It probably isn't</li>
+              <li>Each person you interact with gets to define what that line is </li>
+              <li>Do not assume that your way of thinking is the norm</li>
+              <li>Sometimes it’s not clear. Good conduct requires judgment. There is a gray area between warm and welcoming
+              behavior and unacceptable.</li>
+            <li>If you just met the other person for the first time, consider offering your contact info, instead of requesting
+              theirs.</li>
+              <li>A lot of these things sound basics. But they are important. People feel safe, they can get excited about
+              learning and excited to come back></li>
+            </ul>
+          </Notes>
+        </SimpleSlide>
+
+        <SimpleSlide  fit={false} statement="What about when things go wrong?">
+          <Notes>
+            <ul>
+              <li>What to do if you feel harrassed as a participant</li>
+              <li>As an organizer how to responds to harrassment</li>
+              <li>In into we explain students tell organizers</li>
+                <li> ask them to documetn incident in writing</li>
+                <li>If there is legitimate threat or danger police will be notified</li>
+                <li>Outline how to respond if a student or volunteer complains of harrassment</li>
+                <li>how people act at a workhop really sets the tone of the workshop and space, and in effect becomes reflective
+                  of the organization's values</li>
+            </ul>
+          </Notes>
+        </SimpleSlide>
+
+        <SimpleSlide inverted fit={false} statement="Everyone has limited knowledge but infinite potential">
+          <Notes>
+              <ul>
+                <li>key to lowering intimidation factor</li>
+                <li>people able to really learn, don't have to worry about not knowing</li>
+                <li>changes the tone of the environment</li>
+              </ul>
+          </Notes>
+        </SimpleSlide>
+
+        <SimpleSlide inverted fit={false} statement="We teach people to code because we believe that the people making technology should accurately reflect the diversity
+              of those using it.">
+          <Notes>
+              <ul>
+                <li>we saw this is crucial to companies</li>
+                <li>beneficial to community</li>
+                <li> people with diverse background and new ideas help us innovate</li>
+                <li>helps create more opportunities for community as a whole so we all benefit</li>
+              </ul>
+          </Notes>
+        </SimpleSlide>
+        
+        <SimpleSlide inverted fit={false} statement="Accessibility">
+          <Notes>
+          <ul>
+              <li>Free</li>
+              <li>Food</li>
+              <li>Childcare</li>
+              <li>Installfest</li>
+              <li>Introductions</li>
+            </ul>
+          </Notes>
+        </SimpleSlide>
+
+
+        <SimpleSlide inverted fit={false} statement="Story about Dave and Joe">
+          <Notes>
+          <ul>
+              <li>Free</li>
+              <li>Food</li>
+              <li>Childcare</li>
+              <li>Installfest</li>
+              <li>Introductions</li>
+            </ul>
+          </Notes>
+        </SimpleSlide>
 
 
 
@@ -419,7 +554,7 @@ export default class Presentation extends React.Component {
           </Notes>
         </ImageSlide>
 
-        <ImageSlide inverted image="process-explained.jpg">
+        <ImageSlide inverted image="welcome-yall.jpg">
           <Notes>
             <p>It's not. We fake it.</p>
             <p>
