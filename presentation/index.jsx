@@ -63,37 +63,299 @@ export default class Presentation extends React.Component {
               Anna: I'm Anna, I'm a developer at Carbon Five. That's my contact
               info there.
             </p>
-            <p>
-              Hannah: I'm Hannah, I'm also a developer at Carbon Five. And
-              there's my contact info as well.
-            </p>
-            <p>
-              Hannah: Carbon Five for those who don't know is a product
-              development agency. We work with all kinds of clients, from small
-              startups to large corporations, to turn their ideas, no matter
-              what stage they're at, into working software. We're hiring and
-              we're hirable. If you'd like to know more, you can come find
-              either of us after the talk is over.
-            </p>
-            <p>Hannah: And now I'll turn it over to Anna to kick this off.</p>
           </Notes>
         </AboutMeSlide>
         <DoubleImageSlide
           fit={false}
-          image2="elixir_logo.png"
-          image1="gophercolor.png"
-          title="Go vs. Elixir"
-          text="A Concurrency Comparison"
+          title="How do we build community"
+          text="How do we build community"
         >
           <Notes>
             <p>
-              So the motivation for this talk came from a many conversatiosn
-              both Hannah and I have had about concurrency - where Go and Elixir
-              are often thrown into the conversation as options. And while both
-              do allow for concurrency...
-            </p>
+              So the motivation for this talk came from my experience building ElixirBridge the past few years - but that is not where I want to begin</p>
           </Notes>
         </DoubleImageSlide>
+        <QuoteSlide
+          inverted
+          quote="“So much about building software - more than anyone wants to admit--is etiquette - Paul Ford - wired 5.14.19“"
+        >
+        <Notes>
+          <div>
+            <p>This is from a piece by paul ford that I read earlier this year - and this statement resonated with me</p>
+          </div>
+        </Notes>
+        </QuoteSlide>
+
+        <QuoteSlide
+          inverted
+          quote="“ It’s rules all the way down. Coders care passionately about the position of their brackets and semicolons.
+          User experience designers work to make things elegant and simple and accessible to all.
+          They meet at conferences, on message boards, and today in private Slacks to hash out what is good and what is bad... - Paul Ford.“"
+        >
+        <Notes>
+          <div>
+            <p>He continues to say the following </p>
+          </div>
+        </Notes>
+        </QuoteSlide>
+
+        <QuoteSlide
+          inverted
+          quote="“Which also means who is in, who is out. - Paul Ford“"
+        >
+        <Notes>
+          <div>
+            <p>He continues to say the following </p>
+          </div>
+        </Notes>
+        </QuoteSlide>
+
+        <SimpleSlide inverted fit={false} statement="So who is the who?">
+          <Notes>
+            <p>
+
+            </p>
+          </Notes>
+        </SimpleSlide>
+
+
+        <SimpleSlide inverted fit={false} statement="Who feels Welcome?">
+          <Notes>
+            <p>
+
+            </p>
+          </Notes>
+        </SimpleSlide>
+
+        <ImageSlide image="tech-leavers-new.png">
+          <Notes>
+            <p>2017 an oaklnad based non-profit called the Kapor Center did a study called the tech leavers study</p>
+            <ul>
+            <li> people are leaving the Industry</li>
+            <li>we have all seen the news lately google manifesto, vs firms, uber</li>
+            <li> tech indsutry not always welcome place </li>
+          </ul>
+          </Notes>
+        </ImageSlide>
+
+        <SimpleSlide inverted fit={false} statement="Anyone familiar with the term Status Distance?">
+          <Notes>
+              <ul>
+              <li>Paper publishd by faculty - columbia university gradaute school of business</li>
+              <li>Katherine W. Phillips and Melissa C. Thomas-Hunt</li>
+              <li>tooka look at status distance in groups</li>
+              <li>We refer ro the difference in value assigned to members of a group as the level of status
+                distance in the group</li>
+              <li>and argue that the status distance between members
+                often obscures the unique contributions that individuals are poised to make. </li>
+            </ul>
+          </Notes>
+        </SimpleSlide>
+
+
+        <SimpleSlide inverted fit={false} statement="Status Distance === Bias?">
+          <Notes>
+
+          </Notes>
+        </SimpleSlide>
+
+        <ImageSlide image="fluency-heuristic.png">
+          <Notes>
+            <ul>
+              <li>the more fluently, smoothly, or quickly we process something the more value we place on it</li>
+              <li>this leads to bias</li>
+              <li>often people who need to be heard are not</li>
+              <li>HBR study of women wearing sensors</li>
+              <li> gender differences in behavior drive gender differences in outcomes
+                 at one of our client organizations, a large multinational firm, where women were underrepresented in upper management.</li>
+            </ul>
+          </Notes>
+        </ImageSlide>
+
+        <SimpleSlide inverted fit={false} statement="Those who know the rules...how understand the etiquette...they have more power">
+          <Notes>
+            <p>
+
+            </p>
+          </Notes>
+        </SimpleSlide>
+
+        <SimpleSlide inverted fit={false} statement="And we know that with great power comes great responsibility">
+          <Notes>
+            <p>
+
+            </p>
+          </Notes>
+        </SimpleSlide>
+
+        <SimpleSlide inverted fit={false} statement="And what do we do with that?">
+          <Notes>
+            <p>
+
+            </p>
+          </Notes>
+        </SimpleSlide>
+
+        <QuoteSlide
+          inverted
+          quote="“Progress is the opening of doors and the leveling of opportunity, the augmentation of the whole human species and the protection of other species besides.
+          Progress is cheerfully facing the truth, whether flooding coastlines or falling teen pregnancy rates,
+           and thinking of ways to preserve the processes that work and mitigate the risks.
+           Progress is seeing calmly, accepting, and thinking of others. - Paul Ford“"
+        >
+        <Notes>
+          <div>
+            <p>He continues to say the following </p>
+          </div>
+        </Notes>
+        </QuoteSlide>
+
+        <QuoteSlide
+          inverted
+          quote="“Progress is the opening of doors and the leveling of opportunity, the augmentation of the whole human species and the protection of other species besides.
+          Progress is cheerfully facing the truth, whether flooding coastlines or falling teen pregnancy rates,
+           and thinking of ways to preserve the processes that work and mitigate the risks.
+           Progress is seeing calmly, accepting, and thinking of others. - Paul Ford“"
+        >
+        <Notes>
+          <div>
+            <p>He continues to say the following </p>
+          </div>
+        </Notes>
+        </QuoteSlide>
+
+        <QuoteSlide
+          inverted
+          quote="“If bitcoin can be real money, then fairness can be a real goal.“"
+        >
+        <Notes>
+          <div>
+            <p>He continues to say the following </p>
+          </div>
+        </Notes>
+        </QuoteSlide>
+
+
+        <SimpleSlide inverted fit={false} statement="What do we mean by fairness?">
+          <Notes>
+            <p>
+
+            </p>
+          </Notes>
+        </SimpleSlide>
+
+        <SimpleSlide inverted fit={false} statement="Providing an environment for folks to enter and feel welcome">
+          <Notes>
+            <p>
+              Providing an environment for folks to enter and feel welcome
+            </p>
+            <div> Check our own biases</div>
+            <ul>who are the first 10 people your shared elixir with</ul>
+            <ul>does this group reflect the commuinity with want to see</ul>
+
+          </Notes>
+        </SimpleSlide>
+
+
+
+        <SimpleSlide inverted fit={false} statement="This brings us to ElixirBridge">
+          <Notes>
+            <p>
+
+            </p>
+          </Notes>
+        </SimpleSlide>
+
+
+        <ImageSlide image="eb-mark-color.png">
+          <Notes>
+          </Notes>
+        </ImageSlide>
+
+        <SimpleSlide inverted fit={false} statement="But first...">
+          <Notes>
+            <p>
+
+            </p>
+          </Notes>
+        </SimpleSlide>
+
+        <ImageSlide image="railsbridge-boston-photo.png">
+              <ul>
+                <li>ElixirBridge is modeled after railsbridge</li>
+                <li>My start in RailsBridge</li>
+                <li>Interested in Elixir</li>
+                <li>My friend Matt came up to me and we talked about starting ElixirBridge</li>
+              </ul>
+
+              <ul>
+              <li> Started by Sarah Allen &amp; Sarah Mei in 2009</li>
+              <li> Free weekendlong workshops for women</li>
+              <li>All volunteer run</li>
+              <li>Helped Ruby community in SF go from 2% women to 18% women in 1 year(2009-2010)</li>
+            </ul>
+        </ImageSlide>
+
+
+        <SimpleSlide inverted fit={false} statement="Helped Ruby community in SF go from 2% women to 18% women in 1 year(2009-2010)">
+          <Notes>
+            <p>
+
+            </p>
+          </Notes>
+        </SimpleSlide>
+
+        <SimpleSlide inverted fit={false} statement="So back to ElixirBridge">
+          <Notes>
+              <li> how it got started</li>
+              <li>so far workshops in SF, NYC, SEAttle, but lots of interest in other places</li>
+          </Notes>
+        </SimpleSlide>
+
+        <ImageSlide image="elixirbridge-workshop.jpg">
+          <Notes>
+            <p> As with everything there are tradeoffs</p>
+          </Notes>
+        </ImageSlide>
+
+        <SimpleSlide inverted fit={false} statement="So back to ElixirBridge">
+          <Notes>
+              <li> how it got started</li>
+              <li>so far workshops in SF, NYC, SEAttle, but lots of interest in other places</li>
+              <h2>Schedule</h2>
+            <div style="text-align: left">Friday night: InstallFest</div>
+            <div style="text-align: left"> Saturday: Workshop</div>
+            <ul>
+              <li style="padding-bottom: 0px;">9:30 - 10:00am: Sign in, coffee, breakfast</li>
+              <li style="padding-bottom: 0px;">10:00 - 10:15am: Intro!</li>
+              <li style="padding-bottom: 0px;">10:30 - 12:30pm: Session 1</li>
+              <li style="padding-bottom: 0px;">12:30 - 1:30pm: Lunch!</li>
+              <li style="padding-bottom: 0px;">1:30 - 4:00pm: Session 3</li>
+              <li style="padding-bottom: 0px;">4:15 - 4:30pm: Retrospective</li>
+              <lis tyle="padding-bottom: 0px;">4:30 - 5pm: Happy Hour at TBD</li>
+              </ul>
+              <ul>
+                <li>retrospective allows us to make sure we are meeting the needs of our community</li>
+                <li>Happy hour: Students and teachers can connect outside of a workshop setting</li>
+                <li>Another avenue that allows us to help build the community</li>
+              </ul>
+          </Notes>
+        </SimpleSlide>
+
+        <SimpleSlide
+          inverted
+          fit={false}
+          statement="What has worked for us"
+        >
+          <Notes>Good lead off for Hannah to discuss coordination</Notes>
+        </SimpleSlide>
+
+
+
+
+
+
+
         <ImageSlide image="tradeoffs.png">
           <Notes>
             <p> As with everything there are tradeoffs</p>
