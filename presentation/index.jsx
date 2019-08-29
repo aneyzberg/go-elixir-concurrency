@@ -317,7 +317,7 @@ export default class Presentation extends React.Component {
           </Notes>
         </SimpleSlide>
 
-        <SimpleSlide inverted fit={false} statement="Providing an environment for folks to enter and feel welcome and have the tools to effectively participate in the community">
+        <SimpleSlide inverted fit={false} statement="Providing an environment for folks to enter">
           <Notes>
             <p>
               Providing an environment for folks to enter and feel welcome
@@ -329,7 +329,7 @@ export default class Presentation extends React.Component {
           </Notes>
         </SimpleSlide>
 
-        <SimpleSlide inverted fit={false} statement="To feel welcome and have the tools to effectively participate in the community">
+        <SimpleSlide inverted fit={false} statement="To feel welcome">
           <Notes>
             <p>
               Providing an environment for folks to enter and feel welcome
@@ -341,7 +341,7 @@ export default class Presentation extends React.Component {
           </Notes>
         </SimpleSlide>
 
-        <SimpleSlide inverted fit={false} statement=" have the tools to effectively participate in the community">
+        <SimpleSlide inverted fit={false} statement="To have the tools to effectively participate in the community">
           <Notes>
             <p>
               Providing an environment for folks to enter and feel welcome
@@ -560,7 +560,18 @@ export default class Presentation extends React.Component {
           </Notes>
         </SimpleSlide>
 
-        <SimpleSlide fit={false} statement="We teach people to code because we believe that the people making technology should accurately reflect the diversity
+        <SimpleSlide fit={false} statement="We teach people to code because we believe that...">
+          <Notes>
+              <ul>
+                <li>we saw this is crucial to companies</li>
+                <li>beneficial to community</li>
+                <li> people with diverse background and new ideas help us innovate</li>
+                <li>helps create more opportunities for community as a whole so we all benefit</li>
+              </ul>
+          </Notes>
+        </SimpleSlide>
+
+        <SimpleSlide fit={false} statement="the people making technology should accurately reflect the diversity
               of those using it.">
           <Notes>
               <ul>
@@ -571,6 +582,8 @@ export default class Presentation extends React.Component {
               </ul>
           </Notes>
         </SimpleSlide>
+
+
 
         <SimpleSlide inverted fit={false} statement="Accessibility">
           <Notes>
@@ -635,7 +648,7 @@ export default class Presentation extends React.Component {
         </SimpleSlide>
 
 
-        <ImageSlide inverted image="railsbridge-workshop1.jpg">
+        <ImageSlide inverted image="elixirbridge-workshop.jpg">
           <Notes>
           <ul>
                 <li>Culture of question asking, it's ok not to know.
@@ -665,17 +678,6 @@ export default class Presentation extends React.Component {
           </Notes>
         </SimpleSlide>
 
-
-
-        <SimpleSlide inverted fit={false} statement="Folks have told us they feel comfortable sharing and learning">
-          <Notes>
-            <p>
-              Over all the workshops we have had, we had have folks who were students come back as teachers
-            </p>
-          </Notes>
-        </SimpleSlide>
-
-
         <SimpleSlide inverted fit={false} statement="But we haven't gotten everything right....">
           <Notes>
             <p>
@@ -684,7 +686,7 @@ export default class Presentation extends React.Component {
           </Notes>
         </SimpleSlide>
 
-        <ImageSlide image="sleeping-puppy1.jpg">
+        <ImageSlide image="sleepingpuppy1.jpg">
           <Notes>
             <p>
               open source is hard
@@ -727,14 +729,6 @@ export default class Presentation extends React.Component {
           </Notes>
         </SimpleSlide>
 
-        <SimpleSlide inverted fit={false} statement="Maintaining it is even harder ">
-          <Notes>
-            <p>
-              I have so much respect for anyone who writes things to help other people learn
-            </p>
-          </Notes>
-        </SimpleSlide>
-
         <SimpleSlide inverted fit={false} statement="You will need help">
           <Notes>
             <p>
@@ -763,16 +757,22 @@ export default class Presentation extends React.Component {
           </Notes>
         </SimpleSlide>
 
-
-
-        <SimpleSlide inverted fit={false} statement="Be wary of forever projects">
+        <ImageSlide image="burnout1.jpg">
           <Notes>
             <p>
-             We are continuing to do this work because we deeply believe in it. but I have yet to hear
+              open source is hard
+            </p>
+          </Notes>
+        </ImageSlide>
+
+        <ImageSlide image="foreverproject.png">
+          <Notes>
+            <p>
+            We are continuing to do this work because we deeply believe in it. but I have yet to hear
              from folks about how to successfully hand off a forever project
             </p>
           </Notes>
-        </SimpleSlide>
+        </ImageSlide>
 
 
         <SimpleSlide inverted fit={false} statement="Despite all this...">
@@ -785,36 +785,6 @@ export default class Presentation extends React.Component {
         </SimpleSlide>
         <SimpleSlide statement="Conclusions">
         <Notes>
-            <div>
-              <p>
-                We've seen how two different languages approached the problem of coordination as it relates to concurrency.
-              </p>
-              <p>
-                Each languages approach was guided by the specific problems it was trying solve
-              </p>
-              <p>
-                If you understand the problems each approach intends to solve, you can choose the right tool for the jobs
-              </p>
-              <p>
-                Unfortunately, many factors go into choosing a language to build your software in, apart from concurrency, and sometimes
-                the choice is made for you.
-              </p>
-              <p>
-                One of the thoughts we want to leave you with is to not be limited by the paradigms
-                of the language
-              </p>
-              <p>
-                Often when working inside of a particular construct, our thought process
-                can be confined to within the walls of that construct.
-              </p>
-              <p>
-                If you understand the patterns and approaches of many languages, as you have seen -
-                it is possible to adopt paradigms from other languages into your current context
-              </p>
-              <p>
-                Although we recognize that it may feel awkward, depending on the problem you are trying to solve, it still might be the most elegant solution
-              </p>
-            </div>
           </Notes>
 
         </SimpleSlide>
