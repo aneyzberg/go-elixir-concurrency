@@ -65,9 +65,33 @@ export default class Presentation extends React.Component {
             </p>
           </Notes>
         </AboutMeSlide>
-        <SimpleSlide inverted fit={false} statement="How do we build community">
+        <SimpleSlide inverted fit={false} statement="How do we build community?">
           <Notes>
           <p> So the motivation for this talk came from my experience building ElixirBridge the past few years - but that is not where I want to begin</p>
+          </Notes>
+        </SimpleSlide>
+
+        <SimpleSlide inverted fit={false} statement="Where do we start?">
+          <Notes>
+          <p> So the motivation for this talk came from my experience building ElixirBridge the past few years - but that is not where I want to begin</p>
+          </Notes>
+        </SimpleSlide>
+
+        <SimpleSlide inverted fit={false} statement="Why are some tech communities great?">
+          <Notes>
+          <p> So the motivation for this talk came from my experience building ElixirBridge the past few years - but that is not where I want to begin</p>
+          </Notes>
+        </SimpleSlide>
+
+        <SimpleSlide inverted fit={false} statement="Why are others toxic?">
+          <Notes>
+          <p> So the motivation for this talk came from my experience building ElixirBridge the past few years - but that is not where I want to begin</p>
+          </Notes>
+        </SimpleSlide>
+
+        <SimpleSlide fit={false} statement="Need to understand where we currently are">
+          <Notes>
+          <p> What is the current state of our community, and why are the people that are here here</p>
           </Notes>
         </SimpleSlide>
         <QuoteSlide
@@ -83,13 +107,43 @@ export default class Presentation extends React.Component {
 
         <QuoteSlide
           inverted
-          quote="“ It’s rules all the way down. Coders care passionately about the position of their brackets and semicolons.
-          User experience designers work to make things elegant and simple and accessible to all.
-          They meet at conferences, on message boards, and today in private Slacks to hash out what is good and what is bad... - Paul Ford.“"
+          quote="“ It’s rules all the way down. Coders care passionately about the position of their brackets and semicolons...- Paul Ford.“"
         >
         <Notes>
           <div>
             <p>He continues to say the following </p>
+          </div>
+        </Notes>
+        </QuoteSlide>
+
+        <QuoteSlide
+          inverted
+          quote="“They meet at conferences, on message boards, and today in private Slacks to hash out what is good and what is bad... - Paul Ford.“"
+        >
+        <Notes>
+          <div>
+            <p>He continues to say the following </p>
+          </div>
+        </Notes>
+        </QuoteSlide>
+        <QuoteSlide
+          inverted
+          quote="“the customary code of polite behavior in society or among members of a particular profession or group.- Wikipedia“"
+        >
+        <Notes>
+          <div>
+            <p>Yet with ths</p>
+          </div>
+        </Notes>
+        </QuoteSlide>
+
+        <QuoteSlide
+          inverted
+          quote="“the customary code“"
+        >
+        <Notes>
+          <div>
+            <p>We are making up the rules</p>
           </div>
         </Notes>
         </QuoteSlide>
@@ -105,7 +159,7 @@ export default class Presentation extends React.Component {
         </Notes>
         </QuoteSlide>
 
-        <SimpleSlide inverted fit={false} statement="So who is the who?">
+        <SimpleSlide inverted fit={false} statement="So in our context of community building...">
           <Notes>
             <p>
 
@@ -122,6 +176,16 @@ export default class Presentation extends React.Component {
           </Notes>
         </SimpleSlide>
 
+        <SimpleSlide inverted fit={false} statement="Who in this room has ever felt unwelcome in some space?">
+          <Notes>
+            <p>
+              And if we think upon the industry as a whole...this is not an uncommon expereince folk folks that are underreresented
+            </p>
+          </Notes>
+        </SimpleSlide>
+
+
+
         <ImageSlide image="tech-leavers-new.jpg">
           <Notes>
             <p>2017 an oaklnad based non-profit called the Kapor Center did a study called the tech leavers study</p>
@@ -129,6 +193,8 @@ export default class Presentation extends React.Component {
             <li> people are leaving the Industry</li>
             <li>we have all seen the news lately google manifesto, vs firms, uber</li>
             <li> tech indsutry not always welcome place </li>
+            <li>We pride ourselves on innovation or "disruption" as an industry - yet so many brilliant minds that have diverse perspective are leaving </li>
+            <li>folks do not feel welcome</li>
           </ul>
           </Notes>
         </ImageSlide>
@@ -175,7 +241,7 @@ export default class Presentation extends React.Component {
           </Notes>
         </SimpleSlide>
 
-        <SimpleSlide inverted fit={false} statement="With less power...keep leaving. Show twitter quote">
+        <SimpleSlide inverted fit={false} statement="">
           <Notes>
             <p>
 
@@ -191,7 +257,7 @@ export default class Presentation extends React.Component {
           </Notes>
         </SimpleSlide>
 
-        <SimpleSlide inverted fit={false} statement="We have a responsibility">
+        <SimpleSlide inverted fit={false} statement="Have a responsibility">
           <Notes>
             <p>
 
@@ -202,6 +268,18 @@ export default class Presentation extends React.Component {
         <SimpleSlide inverted fit={false} statement="And what do we do with that?">
           <Notes>
             <p>
+
+            </p>
+          </Notes>
+        </SimpleSlide>
+
+        <SimpleSlide inverted fit={false} statement="How do we help people feel welcome">
+          <Notes>
+            <p>
+              Just the other day one of the women I follow on twitter said she is leaving the industry.
+              For an industry that prides itself on progress and innovation, having people leave rather
+              than figuring out how to make a space where they feel welcome and want to contribute is the exact
+              opposite of that
 
             </p>
           </Notes>
@@ -221,7 +299,7 @@ export default class Presentation extends React.Component {
 
         <QuoteSlide
           inverted
-          quote="“If bitcoin can be real money, then fairness can be a real goal.“"
+          quote="“If bitcoin can be real money, then fairness can be a real goal.-Paul Ford“"
         >
         <Notes>
           <div>
@@ -251,6 +329,29 @@ export default class Presentation extends React.Component {
           </Notes>
         </SimpleSlide>
 
+        <SimpleSlide inverted fit={false} statement="To feel welcome and have the tools to effectively participate in the community">
+          <Notes>
+            <p>
+              Providing an environment for folks to enter and feel welcome
+            </p>
+            <div> Check our own biases</div>
+            <ul>who are the first 10 people your shared elixir with</ul>
+            <ul>does this group reflect the commuinity with want to see</ul>
+
+          </Notes>
+        </SimpleSlide>
+
+        <SimpleSlide inverted fit={false} statement=" have the tools to effectively participate in the community">
+          <Notes>
+            <p>
+              Providing an environment for folks to enter and feel welcome
+            </p>
+            <div> Check our own biases</div>
+            <ul>who are the first 10 people your shared elixir with</ul>
+            <ul>does this group reflect the commuinity with want to see</ul>
+
+          </Notes>
+        </SimpleSlide>
 
 
         <SimpleSlide inverted fit={false} statement="This brings us to ElixirBridge">
@@ -406,6 +507,7 @@ export default class Presentation extends React.Component {
               <li> If you feel like it would help to work directly on someone’s keyboard, ask first.</li>
               <li>Refer participants to open and free material for follow-up learning.</li>
               <li> Do not ask anyone out on a date.</li>
+              <li>we want to make sure that </li>
             </ul>
           </Notes>
         </SimpleSlide>
@@ -427,9 +529,14 @@ export default class Presentation extends React.Component {
           </Notes>
         </SimpleSlide>
 
-        <SimpleSlide  fit={false} statement="What about when things go wrong?">
+        <SimpleSlide inverted fit={false} statement="We want to make sure everyone is working with the same rules">
           <Notes>
-            <ul>
+          </Notes>
+        </SimpleSlide>
+
+        <ImageSlide image="garbagefire.jpg">
+          <Notes>
+          <ul>
               <li>What to do if you feel harrassed as a participant</li>
               <li>As an organizer how to responds to harrassment</li>
               <li>In into we explain students tell organizers</li>
@@ -440,7 +547,7 @@ export default class Presentation extends React.Component {
                   of the organization's values</li>
             </ul>
           </Notes>
-        </SimpleSlide>
+        </ImageSlide>
 
         <SimpleSlide inverted fit={false} statement="Everyone has limited knowledge but infinite potential">
           <Notes>
@@ -448,11 +555,12 @@ export default class Presentation extends React.Component {
                 <li>key to lowering intimidation factor</li>
                 <li>people able to really learn, don't have to worry about not knowing</li>
                 <li>changes the tone of the environment</li>
+                <li>what someone knows now has no bearing on what they will no in the future</li>
               </ul>
           </Notes>
         </SimpleSlide>
 
-        <SimpleSlide inverted fit={false} statement="We teach people to code because we believe that the people making technology should accurately reflect the diversity
+        <SimpleSlide fit={false} statement="We teach people to code because we believe that the people making technology should accurately reflect the diversity
               of those using it.">
           <Notes>
               <ul>
@@ -477,15 +585,11 @@ export default class Presentation extends React.Component {
         </SimpleSlide>
 
 
-        <SimpleSlide inverted fit={false} statement="Story about Dave and Joe">
+        <SimpleSlide inverted fit={false} statement="Dave and Joe">
           <Notes>
-          <ul>
-              <li>Free</li>
-              <li>Food</li>
-              <li>Childcare</li>
-              <li>Installfest</li>
-              <li>Introductions</li>
-            </ul>
+          <p>
+            My talk at ElixirConf
+          </p>
           </Notes>
         </SimpleSlide>
 
@@ -679,13 +783,6 @@ export default class Presentation extends React.Component {
             </p>
           </Notes>
         </SimpleSlide>
-
-        <DefinitionSlide
-          inverted
-          term="How do we implement channels in Elixir?"
-        />
-
-
         <SimpleSlide statement="Conclusions">
         <Notes>
             <div>

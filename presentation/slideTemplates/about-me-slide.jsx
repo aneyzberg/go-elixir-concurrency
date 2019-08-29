@@ -50,7 +50,7 @@ const AboutMeSlide = ({ children }) => {
     <FullScreen column>
       <Row style={{ flexShrink: 0 }}>
         <Heading size={1} fit caps lineHeight={1} textColor="quartenary">
-          Anna + Hannah #AboutUs
+          Anna
         </Heading>
       </Row>
       <Row>
@@ -66,26 +66,11 @@ const AboutMeSlide = ({ children }) => {
             </Text>
           </Column>
         </Appear>
-
-        <Appear order={2}>
-          <Column>
-            <Image src={tgwLogo} style={imageStyle} />
-            <Text>
-              Hannah Howard
-              <br />
-              @techgirlwonder
-              <br />
-              she/her
-            </Text>
-          </Column>
-        </Appear>
-        <Appear order={2}>
+        <Appear order={1}>
           <Column>
             <Image src={c5Logo} style={imageStyle} />
             <Text style={{ wordBreak: 'break-word' }}>
               anna@carbonfive.com
-              <br />
-              hannah@carbonfive.com
             </Text>
           </Column>
         </Appear>
