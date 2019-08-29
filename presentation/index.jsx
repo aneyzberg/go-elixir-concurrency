@@ -94,6 +94,17 @@ export default class Presentation extends React.Component {
           <p> What is the current state of our community, and why are the people that are here here</p>
           </Notes>
         </SimpleSlide>
+
+        <QuoteSlide
+          inverted
+          quote="“A feeling of fellowship with others, as a result of sharing common attitudes, interests, and goals.“"
+        >
+          <Notes>
+            <div>
+              <p>This is from a piece by paul ford that I read earlier this year - and this statement resonated with me</p>
+            </div>
+          </Notes>
+        </QuoteSlide>
         <QuoteSlide
           inverted
           quote="“So much about building software - more than anyone wants to admit--is etiquette - Paul Ford - wired 5.14.19“"
@@ -205,9 +216,12 @@ export default class Presentation extends React.Component {
               <li>tooka look at status distance in groups</li>
               <li>We refer ro the difference in value assigned to members of a group as the level of status
                 distance in the group</li>
+              <li>They argue that status differences among team members can suppress the confidence or assertiveness of lower-status members as well as the exchange
+                   and integration of their unique knowledge, perspectives, and information.</li>
               <li>and argue that the status distance between members
                 often obscures the unique contributions that individuals are poised to make. </li>
             </ul>
+
           </Notes>
         </SimpleSlide>
 
@@ -224,14 +238,16 @@ export default class Presentation extends React.Component {
               <li>the more fluently, smoothly, or quickly we process something the more value we place on it</li>
               <li>this leads to bias</li>
               <li>often people who need to be heard are not</li>
-              <li>HBR study of women wearing sensors</li>
+              <li>HBR study of women wearing sensors - and found that there was not difference in the way women/men
+                were acting at a company
+              </li>
               <li> gender differences in behavior drive gender differences in outcomes
                  at one of our client organizations, a large multinational firm, where women were underrepresented in upper management.</li>
             </ul>
           </Notes>
         </ImageSlide>
 
-        <SimpleSlide inverted fit={false} statement="Those who know the rules...who understand the etiquette...">
+        <SimpleSlide inverted fit={false} statement="Those who already have bias lean toward them">
           <Notes>
             <p>
 
@@ -247,7 +263,7 @@ export default class Presentation extends React.Component {
           </Notes>
         </SimpleSlide>
 
-        <SimpleSlide fit={false} statement="To help others get access and understanding">
+        <SimpleSlide fit={false} statement="To help others get access">
           <Notes>
             <p>
 
@@ -376,7 +392,7 @@ export default class Presentation extends React.Component {
         </ImageSlide>
 
 
-        <SimpleSlide inverted fit={false} statement="Helped Ruby community in SF go from 2% women to 18% women in 1 year(2009-2010)">
+        <SimpleSlide fit={false} statement="Helped Ruby community in SF go from 2% women to 18% women in 1 year(2009-2010)">
           <Notes>
             <p>
 
@@ -395,21 +411,10 @@ export default class Presentation extends React.Component {
           <Notes>
             <p> As with everything there are tradeoffs</p>
             <div>
+              <ul>
               <li> how it got started</li>
               <li>so far workshops in SF, NYC, SEAttle, but lots of interest in other places</li>
-              <h2>Schedule</h2>
-            <div style="text-align: left">Friday night: InstallFest</div>
-            <div style="text-align: left"> Saturday: Workshop</div>
-            <ul>
-              <li style="padding-bottom: 0px;">9:30 - 10:00am: Sign in, coffee, breakfast</li>
-              <li style="padding-bottom: 0px;">10:00 - 10:15am: Intro!</li>
-              <li style="padding-bottom: 0px;">10:30 - 12:30pm: Session 1</li>
-              <li style="padding-bottom: 0px;">12:30 - 1:30pm: Lunch!</li>
-              <li style="padding-bottom: 0px;">1:30 - 4:00pm: Session 3</li>
-              <li style="padding-bottom: 0px;">4:15 - 4:30pm: Retrospective</li>
-              <li tyle="padding-bottom: 0px;">4:30 - 5pm: Happy Hour at TBD</li>
-              </ul>
-              <ul>
+
                 <li>retrospective allows us to make sure we are meeting the needs of our community</li>
                 <li>Happy hour: Students and teachers can connect outside of a workshop setting</li>
                 <li>Another avenue that allows us to help build the community</li>
@@ -438,15 +443,16 @@ export default class Presentation extends React.Component {
         <ImageSlide inverted image="welcome-yall.jpg">
           <Notes>
             <p>creating a welcoming inclusive environment so folks want to come into the community</p>
+            <ul>who are the first 10 people your shared elixir with</ul>
+          <ul>does this group reflect the commuinity with want to see</ul>
+          <ul>how else do we do this?</ul>
 
           </Notes>
         </ImageSlide>
 
         <SimpleSlide inverted fit={false} statement="But how?">
           <Notes>
-          <ul>who are the first 10 people your shared elixir with</ul>
-          <ul>does this group reflect the commuinity with want to see</ul>
-          <ul>how else do we do this?</ul>
+
           </Notes>
         </SimpleSlide>
 
@@ -457,7 +463,7 @@ export default class Presentation extends React.Component {
           </Notes>
         </SimpleSlide>
 
-        <SimpleSlide inverted fit={false} statement="Code of Conduct">
+        <SimpleSlide fit={false} statement="Code of Conduct">
           <Notes>
             <ul>
               <li>Community reflective of the diversity in the general population.</li>
@@ -480,7 +486,7 @@ export default class Presentation extends React.Component {
         </SimpleSlide>
 
 
-        <SimpleSlide inverted fit={false} statement="Clear Examples of What is expected">
+        <SimpleSlide fit={false} statement="Clear Examples of What is expected">
           <Notes>
             <ul>
               <li>Use your words and respect boundaries</li>
@@ -564,6 +570,13 @@ export default class Presentation extends React.Component {
         </SimpleSlide>
 
 
+        <SimpleSlide fit={false} statement="Dave and Joe">
+          <Notes>
+          <p>
+            My talk at ElixirConf
+          </p>
+          </Notes>
+        </SimpleSlide>
 
         <SimpleSlide inverted fit={false} statement="Accessibility">
           <Notes>
@@ -573,16 +586,8 @@ export default class Presentation extends React.Component {
               <li>Childcare</li>
               <li>Installfest</li>
               <li>Introductions</li>
+              <li>curriculum is open source</li>
             </ul>
-          </Notes>
-        </SimpleSlide>
-
-
-        <SimpleSlide inverted fit={false} statement="Dave and Joe">
-          <Notes>
-          <p>
-            My talk at ElixirConf
-          </p>
           </Notes>
         </SimpleSlide>
 
@@ -599,7 +604,7 @@ export default class Presentation extends React.Component {
           </Notes>
         </SimpleSlide>
 
-        <SimpleSlide inverted fit={false} statement="Community of practice">
+        <SimpleSlide fit={false} statement="Community of practice">
           <Notes>
             <ul>
                 <li>(students and teachers are sharing information adn learning from each other</li>
@@ -611,6 +616,7 @@ export default class Presentation extends React.Component {
                   has somethingto share</li>
                 <li> volunteers take these expereinces back to their workplaces </li>
                 <li>peoplge get to experience what positive software development is like</li>
+                <li>people can come back and do the next thing</li>>
               </ul>
           </Notes>
         </SimpleSlide>
@@ -623,7 +629,9 @@ export default class Presentation extends React.Component {
 
         <ImageSlide image="dont-know.jpg">
           <Notes>
-            <p>Ask questions</p>
+            <ul>
+              <li>train TAs to also ask questions</li>
+            </ul>
           </Notes>
 
         </ImageSlide>
@@ -675,7 +683,7 @@ export default class Presentation extends React.Component {
           </Notes>
         </ImageSlide>
 
-        <SimpleSlide inverted fit={false} statement="Volunteer Run">
+        <SimpleSlide fit={false} statement="Volunteer Run">
           <Notes>
             <p>
              we are really run by only a few people - workshops only happen if we make them happen
@@ -686,47 +694,65 @@ export default class Presentation extends React.Component {
 
         <SimpleSlide inverted fit={false} statement="Theoretically anyone can run a workshop?">
           <Notes>
-            <p>
-                The curriculum is open source and yet we need to have a lot of documentation in place to support folsk doing this
-            </p>
+            <ul>
+              <li>The curriculum is open source and yet we need to have a lot of documentation in place to support folsk doing this</li>
+              <li>have a run book in place where folks no exactly what they need to do</li>
+              <li>most people want in person contact of some kind. how do we support that</li>
+
+            </ul>
           </Notes>
         </SimpleSlide>
 
 
-        <SimpleSlide inverted fit={false} statement="Writing curriculum is hard">
+        <SimpleSlide fit={false} statement="Writing curriculum is hard">
           <Notes>
-            <p>
-              I have so much respect for anyone who writes things to help other people learn
-            </p>
+            <ul>
+              <li>I have so much respect for anyone who writes things to help other people learn</li>
+              <li>how do you write it - in a teachable only format..in follow yourself..both</li>
+              <li>balance of teachign and giving folks exercises so they can work on their own</li>
+              <li>providing ever increasing challenges so folks don't get bored</li>
+              <li>trying to build something useful</li>
+            </ul>
           </Notes>
         </SimpleSlide>
 
 
         <SimpleSlide inverted fit={false} statement="Maintaining it is even harder ">
           <Notes>
-            <p>
-              I have so much respect for anyone who writes things to help other people learn
-            </p>
+            <div>
+              <ul> I have so much respect for anyone who writes things to help other people learn</ul>
+              <ul>bug fixes, upgrading versions, using latest features</ul>
+              <ul>adding new curricula</ul>
+
+            </div>
           </Notes>
         </SimpleSlide>
 
-        <SimpleSlide inverted fit={false} statement="You will need help">
+        <SimpleSlide fit={false} statement="You will need help">
           <Notes>
-            <p>
-             at some point you will need help from others. Setting up ways to allow others to be involved early
-             will make thigns easier later. Even if it is more work up front.
-             We did not do this
-            </p>
+            <div>
+              <ul>
+                <li>at some point you will need help from others. Setting up ways to allow others to be involved early
+             will make thigns easier later. Even if it is more work up front. We did not do this</li>
+             <li>setting up issues/run book</li>
+             <li>evenig where folks come together to work on curriculum</li>
+             <li>organizer traingings to help folks learn how to organize events</li>
+             </ul>
+
+
+            </div>
           </Notes>
         </SimpleSlide>
 
         <SimpleSlide inverted fit={false} statement="Scaling is hard">
           <Notes>
             <p>
-             at some point you will need help from others. Setting up ways to allow others to be involved early
-             will make thigns easier later. Even if it is more work up front.
-             We did not do this
+             Having the right pieces in place, and havig people feel comfortable enough to do this on their own
+             takes time
             </p>
+            <ul>
+              <li>breaking down pieces of work so other folk can access it</li>
+            </ul>
           </Notes>
         </SimpleSlide>
 
@@ -737,6 +763,8 @@ export default class Presentation extends React.Component {
             </p>
           </Notes>
         </ImageSlide>
+
+
 
         <ImageSlide image="foreverproject.png">
           <Notes>
@@ -751,13 +779,25 @@ export default class Presentation extends React.Component {
         <SimpleSlide inverted fit={false} statement="Despite all this...">
           <Notes>
             <p>
-             We are continuing to do this work because we deeply believe in it. but I have yet to hear
-             from folks about how to successfully hand off a forever project
+             We are continuing to do this work because we deeply that the diversity of the people building technology
+             reflect that of those using it.
             </p>
           </Notes>
         </SimpleSlide>
         <SimpleSlide statement="Conclusions">
         <Notes>
+          <ul>
+            <li>
+              there are simple things you can do
+            </li>
+            <li>
+              engage in conversation with folks here who you have not met. help them to feel welcome
+            </li>
+            <li>think of the last 10 people you shared your excitement about elixir with, what does that community look like</li>
+            <li>who will you reach out to next</li>
+            <li>sometimes all someone needs is to be invited</li>
+
+          </ul>
           </Notes>
 
         </SimpleSlide>
@@ -770,11 +810,10 @@ export default class Presentation extends React.Component {
 
         </ConceptSlide> */}
         <ImageSlide
-          title="Thank you!"
-          image="poohbear.jpg"
-          text="http://concurrency.techgirlwonder.com"
+          title=""
+          image="thankyou.jpg"
+          text="@aneyzb | anna@carbonfive.com"
         >
-          <Notes>Need to replace this image</Notes>
         </ImageSlide>
       </Deck>
     )
