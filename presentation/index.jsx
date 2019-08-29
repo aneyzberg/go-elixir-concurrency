@@ -65,7 +65,7 @@ export default class Presentation extends React.Component {
             </p>
           </Notes>
         </AboutMeSlide>
-        <SimpleSlide inverted fit={false} statement="How do we build community?">
+        <SimpleSlide fit={false} statement="How do we build community?">
           <Notes>
           <p> So the motivation for this talk came from my experience building ElixirBridge the past few years - but that is not where I want to begin</p>
           </Notes>
@@ -77,7 +77,7 @@ export default class Presentation extends React.Component {
           </Notes>
         </SimpleSlide>
 
-        <SimpleSlide inverted fit={false} statement="Why are some tech communities great?">
+        <SimpleSlide fit={false} statement="Why are some tech communities great?">
           <Notes>
           <p> So the motivation for this talk came from my experience building ElixirBridge the past few years - but that is not where I want to begin</p>
           </Notes>
@@ -106,7 +106,6 @@ export default class Presentation extends React.Component {
         </QuoteSlide>
 
         <QuoteSlide
-          inverted
           quote="“ It’s rules all the way down. Coders care passionately about the position of their brackets and semicolons...- Paul Ford.“"
         >
         <Notes>
@@ -126,8 +125,8 @@ export default class Presentation extends React.Component {
           </div>
         </Notes>
         </QuoteSlide>
+
         <QuoteSlide
-          inverted
           quote="“the customary code of polite behavior in society or among members of a particular profession or group.- Wikipedia“"
         >
         <Notes>
@@ -149,7 +148,6 @@ export default class Presentation extends React.Component {
         </QuoteSlide>
 
         <QuoteSlide
-          inverted
           quote="“Which also means who is in, and who is out. - Paul Ford“"
         >
         <Notes>
@@ -159,7 +157,7 @@ export default class Presentation extends React.Component {
         </Notes>
         </QuoteSlide>
 
-        <SimpleSlide inverted fit={false} statement="So in our context of community building...">
+        <SimpleSlide fit={false} statement="So in our context of community building...">
           <Notes>
             <p>
 
@@ -176,7 +174,7 @@ export default class Presentation extends React.Component {
           </Notes>
         </SimpleSlide>
 
-        <SimpleSlide inverted fit={false} statement="Who in this room has ever felt unwelcome in some space?">
+        <SimpleSlide fit={false} statement="Who in this room has ever felt unwelcome in some space?">
           <Notes>
             <p>
               And if we think upon the industry as a whole...this is not an uncommon expereince folk folks that are underreresented
@@ -199,7 +197,7 @@ export default class Presentation extends React.Component {
           </Notes>
         </ImageSlide>
 
-        <SimpleSlide inverted fit={false} statement="Anyone familiar with the term Status Distance?">
+        <SimpleSlide fit={false} statement="Anyone familiar with the term Status Distance?">
           <Notes>
               <ul>
               <li>Paper publishd by faculty - columbia university gradaute school of business</li>
@@ -214,7 +212,7 @@ export default class Presentation extends React.Component {
         </SimpleSlide>
 
 
-        <SimpleSlide inverted fit={false} statement="Status Distance === Bias?">
+        <SimpleSlide fit={false} statement="Status Distance === Bias?">
           <Notes>
 
           </Notes>
@@ -233,23 +231,7 @@ export default class Presentation extends React.Component {
           </Notes>
         </ImageSlide>
 
-        <SimpleSlide inverted fit={false} statement="Those who know the rules...who understand the etiquette...they have more power">
-          <Notes>
-            <p>
-
-            </p>
-          </Notes>
-        </SimpleSlide>
-
-        <SimpleSlide inverted fit={false} statement="">
-          <Notes>
-            <p>
-
-            </p>
-          </Notes>
-        </SimpleSlide>
-
-        <SimpleSlide inverted fit={false} statement="so those of us that know the etiquetter/have the power...">
+        <SimpleSlide inverted fit={false} statement="Those who know the rules...who understand the etiquette...">
           <Notes>
             <p>
 
@@ -265,7 +247,7 @@ export default class Presentation extends React.Component {
           </Notes>
         </SimpleSlide>
 
-        <SimpleSlide inverted fit={false} statement="And what do we do with that?">
+        <SimpleSlide fit={false} statement="To help others get access and understanding">
           <Notes>
             <p>
 
@@ -286,7 +268,6 @@ export default class Presentation extends React.Component {
         </SimpleSlide>
 
         <QuoteSlide
-          inverted
           quote="“Progress is the opening of doors and the leveling of opportunity...
            Progress is seeing calmly, accepting, and thinking of others. - Paul Ford“"
         >
@@ -298,7 +279,6 @@ export default class Presentation extends React.Component {
         </QuoteSlide>
 
         <QuoteSlide
-          inverted
           quote="“If bitcoin can be real money, then fairness can be a real goal.-Paul Ford“"
         >
         <Notes>
@@ -317,7 +297,7 @@ export default class Presentation extends React.Component {
           </Notes>
         </SimpleSlide>
 
-        <SimpleSlide inverted fit={false} statement="Providing an environment for folks to enter">
+        <SimpleSlide fit={false} statement="Providing an environment for folks to enter">
           <Notes>
             <p>
               Providing an environment for folks to enter and feel welcome
@@ -329,7 +309,7 @@ export default class Presentation extends React.Component {
           </Notes>
         </SimpleSlide>
 
-        <SimpleSlide inverted fit={false} statement="To feel welcome">
+        <SimpleSlide fit={false} statement="To feel welcome">
           <Notes>
             <p>
               Providing an environment for folks to enter and feel welcome
@@ -341,7 +321,7 @@ export default class Presentation extends React.Component {
           </Notes>
         </SimpleSlide>
 
-        <SimpleSlide inverted fit={false} statement="To have the tools to effectively participate in the community">
+        <SimpleSlide fit={false} statement="To have the tools to effectively participate in the community">
           <Notes>
             <p>
               Providing an environment for folks to enter and feel welcome
@@ -368,7 +348,7 @@ export default class Presentation extends React.Component {
           </Notes>
         </ImageSlide>
 
-        <SimpleSlide inverted fit={false} statement="But first...">
+        <SimpleSlide  fit={false} statement="But first...">
           <Notes>
             <p>
 
@@ -639,13 +619,14 @@ export default class Presentation extends React.Component {
 
         <ImageSlide image="railsbridge-workshop1.jpg">
           <Notes></Notes>
-
         </ImageSlide>
 
-        <SimpleSlide inverted fit={false} statement="Ask Questions">
+        <ImageSlide image="dont-know.jpg">
           <Notes>
+            <p>Ask questions</p>
           </Notes>
-        </SimpleSlide>
+
+        </ImageSlide>
 
 
         <ImageSlide inverted image="elixirbridge-workshop.jpg">
@@ -749,18 +730,10 @@ export default class Presentation extends React.Component {
           </Notes>
         </SimpleSlide>
 
-
-        <SimpleSlide inverted fit={false} statement="Burnout is real">
-          <Notes>
-            <p>
-            </p>
-          </Notes>
-        </SimpleSlide>
-
         <ImageSlide image="burnout1.jpg">
           <Notes>
             <p>
-              open source is hard
+            Burnout is real
             </p>
           </Notes>
         </ImageSlide>

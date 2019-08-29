@@ -34,10 +34,6 @@ const Column = styled.div`
 `
 
 const AboutMeSlide = ({ children }) => {
-  const tgwLogo = require('../../assets/images/techgirlwonder-01.png').replace(
-    '/',
-    ''
-  )
   const c5Logo = require('../../assets/images/c5_final_logo_only_hires.png').replace(
     '/',
     ''
@@ -49,7 +45,7 @@ const AboutMeSlide = ({ children }) => {
   return (
     <FullScreen column>
       <Row style={{ flexShrink: 0 }}>
-        <Heading size={1} fit caps lineHeight={1} textColor="quartenary">
+        <Heading size={4} fit caps lineHeight={1} textColor="quartenary">
           Anna
         </Heading>
       </Row>
