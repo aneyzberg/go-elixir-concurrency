@@ -65,6 +65,20 @@ export default class Presentation extends React.Component {
             </p>
           </Notes>
         </AboutMeSlide>
+
+        <SimpleSlide fit={false} statement="The small things are the big things?">
+          <Notes>
+          <p> So the motivation for this talk came from my experience building ElixirBridge the past few years - but that is not where I want to begin</p>
+          </Notes>
+        </SimpleSlide>
+
+
+        <SimpleSlide fit={false} statement="The small things are the big things?">
+          <Notes>
+          <p> So the motivation for this talk came from my experience building ElixirBridge the past few years - but that is not where I want to begin</p>
+          </Notes>
+        </SimpleSlide>
+
         <SimpleSlide fit={false} statement="How do we build community?">
           <Notes>
           <p> So the motivation for this talk came from my experience building ElixirBridge the past few years - but that is not where I want to begin</p>
@@ -167,6 +181,161 @@ export default class Presentation extends React.Component {
           </div>
         </Notes>
         </QuoteSlide>
+
+        <SimpleSlide fit={false} statement="And it doesn't just pertain to software..">
+          <Notes>
+            <p>
+              nerd stuff.
+            </p>
+          </Notes>
+        </SimpleSlide>
+
+        <SimpleSlide fit={false} statement="And it doesn't just pertain to software..">
+          <Notes>
+            <p>
+              Maybe Kapor study
+            </p>
+          </Notes>
+        </SimpleSlide>
+
+        <SimpleSlide fit={false} statement="And it doesn't just pertain to software..">
+          <Notes>
+            <p>
+
+            </p>
+          </Notes>
+        </SimpleSlide>
+
+
+        <SimpleSlide fit={false} statement="In 1989 my family immigrated from Soviet Russia as political refugees ...">
+          <Notes>
+            <p>
+
+            </p>
+          </Notes>
+        </SimpleSlide>
+
+        <SimpleSlide fit={false} statement="">
+          <Notes>
+            <p>
+              With very little money and very little English language - my parents - in their early 30s and me (a toddler)
+              immigrated to San Francisco - with nothing more than the belief that life would be better than in Communist Russia
+
+            </p>
+          </Notes>
+        </SimpleSlide>
+
+        <SimpleSlide fit={false} statement="">
+          <Notes>
+            <p>
+              The learned the language - established themselves. assimilated. By all standards they acheived back then what the American dream meant to them
+
+            </p>
+          </Notes>
+        </SimpleSlide>
+
+        <SimpleSlide fit={false} statement="">
+          <Notes>
+            <p>
+              But they did not do it alone. We were able to immigrate because there was pressure from U.S and Israeli governments to let the Soviet Jews leave due to
+              antisemitism
+            </p>
+          </Notes>
+        </SimpleSlide>
+
+
+        <SimpleSlide fit={false} statement="">
+          <Notes>
+            <p>
+              In the states they were greeted by an organized Jewish community that helped them find housing, work, school for me.
+            </p>
+          </Notes>
+        </SimpleSlide>
+
+        <SimpleSlide fit={false} statement="">
+          <Notes>
+            <p>
+              Short story long - they had support. The etiquette of how to do things was passed along to them by those that came before them
+              paired with AMerican Jews - essentially instant friends to help learn this new life. Help explain the etiquette - the code of living in teh u.s.
+            </p>
+          </Notes>
+        </SimpleSlide>
+
+        <SimpleSlide fit={false} statement="">
+          <Notes>
+            <p>
+              What seemed like simple human interactions - made all the difference
+            </p>
+          </Notes>
+        </SimpleSlide>
+
+        <SimpleSlide fit={false} statement="">
+          <Notes>
+            <p>
+              Fast forward - About 6 years ago I was transitioning careers and entering the industry
+            </p>
+          </Notes>
+        </SimpleSlide>
+
+        <SimpleSlide fit={false} statement="">
+          <Notes>
+            <p>
+                A friend suggested I check out an organization called RailsBridge. All he knew was that they did workshops for women.
+                My first workshop was incredible. The instructor was so excited that the feeling radiated through the room.
+                We all felt empowered. Confident that we could approach something that to many of us had seemed intimidating.
+                With a very small amount of encouragement we felt empowered to do more.
+
+                After the workshop we all went to dinner as a group. This provided an opportunity to connect with the Teachers and TAs outside of
+                a workshop setting. Again a small gesture but a feeling of being accepted into the community rather than a feeling of othering.
+            </p>
+          </Notes>
+        </SimpleSlide>
+
+        <SimpleSlide fit={false} statement="">
+          <Notes>
+            <p>
+              Early on I could not yet code but I felt so supported by this community after a sinlge positive experience that I wanted to give back.
+              So I started organizing workshops. There was a workshop eing held that that needed an extra organizer last minute. I decided to go help. There I met
+              someone who is now one of my most valued mentors. I was still trying ot figure out how to transition into the industry. This person was already
+              incredibly accomplished in the industry. I asked at the workshop if they would be willing to grab a coffee sometime so I could ask them some questions about gettign into
+              the industry. Not really knowing who I was they said yes. I still remember that coffee. While it may have been a small thing. The
+              advice I had gotten at that first meeting was incredibly motivating and valuable. But even more valuable was their support. Their willingnes
+              to explain how things worked, to how to get started was invaluable.
+
+              An explaing of the etiquette
+
+              What seemed like a small single coffee helped to propel my career
+
+              The small human interactions end up being the big things
+            </p>
+          </Notes>
+        </SimpleSlide>
+
+        <SimpleSlide fit={false} statement="The small thing ended up being hugely invaluable">
+          <Notes>
+            <p>
+
+            </p>
+          </Notes>
+        </SimpleSlide>
+
+        <SimpleSlide fit={false} statement="zooming back in from geopolitics to our industry">
+          <Notes>
+            <p>
+
+            </p>
+          </Notes>
+        </SimpleSlide>
+
+
+
+        <SimpleSlide fit={false} statement="So in our context of community building...">
+          <Notes>
+            <p>
+
+            </p>
+          </Notes>
+        </SimpleSlide>
 
         <SimpleSlide fit={false} statement="So in our context of community building...">
           <Notes>
@@ -271,6 +440,28 @@ export default class Presentation extends React.Component {
           </Notes>
         </SimpleSlide>
 
+
+        <SimpleSlide fit={false} statement="There is one problem">
+          <Notes>
+            <p>
+
+            </p>
+          </Notes>
+        </SimpleSlide>
+
+
+        <SimpleSlide fit={false} statement="Humans are terrible at making decisions">
+          <Notes>
+            <p>
+
+            </p>
+          </Notes>
+        </SimpleSlide>
+
+
+
+
+
         <SimpleSlide inverted fit={false} statement="How do we help people feel welcome">
           <Notes>
             <p>
@@ -304,14 +495,16 @@ export default class Presentation extends React.Component {
         </Notes>
         </QuoteSlide>
 
-
-        <SimpleSlide inverted fit={false} statement="What do we mean by fairness?">
+        <SimpleSlide inverted fit={false} statement="But how do we accomplish this?">
           <Notes>
             <p>
 
             </p>
           </Notes>
         </SimpleSlide>
+
+
+
 
         <SimpleSlide fit={false} statement="Providing an environment for folks to enter">
           <Notes>
