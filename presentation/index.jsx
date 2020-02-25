@@ -423,35 +423,53 @@ export default class Presentation extends React.Component {
           </Notes>
         </SimpleSlide> */}
 
-        <SimpleSlide fit={false} statement="The intuitve part is in control">
+
+        <ImageSlide image="instinct.png">
           <Notes>
-            <p>
+          <p>
+          <p>
             IMost of the time, our fast, intuitive mind is in control, efficiently taking charge of all the thousands of decisions we make each day.
             </p>
+            </p>
+          </Notes>
+        </ImageSlide>
+
+        <SimpleSlide fit={false} statement="The intuitve part is in control">
+          <Notes>
+
           </Notes>
         </SimpleSlide>
 
-        <SimpleSlide fit={false} statement="While we don't like to think about not being in control of our decision making">
+        <ImageSlide image="decision.jpg">
           <Notes>
-            <p>
+          <p>
+            IMost of the time, our fast, intuitive mind is in control, efficiently taking charge of all the thousands of decisions we make each day.
+
               study in nature magazine that tested
               researchers could predict what choice people would make 7-10 seconds before they themselves were even aware of having made a decision. This means that even when people think they are making a conscious, logical, decision,
               chances are that they aren’t aware that they’ve already made a decision and that it was unconscious. We aren’t even aware of our own process.
+
             </p>
           </Notes>
-        </SimpleSlide>
+        </ImageSlide>
 
-        <SimpleSlide fit={false} statement="By the time we realize we have made a decision our brain has long since made it">
+        <SimpleSlide fit={false} statement="While we don't like to think about not being in control of our decision making">
           <Notes>
-            <p>
-            that the outcome of a decision can be encoded in brain activity of prefrontal and parietal cortex up to 10 s before it enters awareness. This delay presumably reflects the
-            operation of a network of high-level control areas that begin to prepare an upcoming decision long before it enters awareness.
 
-            </p>
           </Notes>
         </SimpleSlide>
 
+        <ImageSlide image="decision_made.png">
+          <Notes>
+          <p>
 
+          By the time we realize we have made a decision our brain has long since made it
+          that the outcome of a decision can be encoded in brain activity of prefrontal and parietal cortex up to 10 s before it enters awareness. This delay presumably reflects the
+            operation of a network of high-level control areas that begin to prepare an upcoming decision long before it enters awareness
+
+            </p>
+          </Notes>
+        </ImageSlide>
 
         <SimpleSlide fit={false} statement="The problem begins">
           <Notes>
@@ -462,25 +480,25 @@ export default class Presentation extends React.Component {
         </SimpleSlide>
 
 
-        <SimpleSlide fit={false} statement="His insight into the way our minds work springs from the mistakes that we make. Not random mistakes, but systematic errors that we all make, all the time, without realising.">
+        <SimpleSlide fit={false} statement="The way our minds work springs from the mistakes that we make. Not random mistakes, but systematic errors that we all make, all the time, without realising.">
           <Notes>
             <p>
             </p>
           </Notes>
         </SimpleSlide>
 
-        <SimpleSlide fit={false} statement="Cognitive Bias">
+        <ImageSlide image="cognitive_bias.jpg">
           <Notes>
-            <p>
+          <p>
             Our thinking is riddled with systematic mistakes known to psychologists as cognitive biases. And they affect everything we do. They make us spend impulsively, be overly influenced by what other people think.
             They affect our beliefs, our opinions, and our decisions, and we have no idea it is happening.
             </p>
           </Notes>
-        </SimpleSlide>
+        </ImageSlide>
 
-        <SimpleSlide fit={false} statement="Box of chocolates">
+        <ImageSlide image="present_bias.jpeg">
           <Notes>
-            <p>
+          <p>
             The "present bias" causes us to pay attention to what is happening now, but not to worry about the future. If I offer you half a box of chocolates in a year's time, or a whole box in a year and a day,
             you'll probably choose to wait the extra day.
 
@@ -488,18 +506,21 @@ export default class Presentation extends React.Component {
             Waiting a day now seems impossible when faced with the immediate promise of chocolate
             </p>
           </Notes>
-        </SimpleSlide>
+        </ImageSlide>
 
-        <SimpleSlide fit={false} statement="Confirmation Bias">
+
+        <ImageSlide image="confirmation_bias.jpg">
           <Notes>
-            <p>
+          <p>
             Anyone who has family members that spend lots of time on social media and
             that have political views they disagree with can probably attest to This
 
             Confirmation bias is the tendency to look for information that confirms what we already know.
             </p>
           </Notes>
-        </SimpleSlide>
+        </ImageSlide>
+
+
 
         <SimpleSlide fit={false} statement="These biases are potentially deeply rooted">
           <Notes>
