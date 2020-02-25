@@ -66,15 +66,67 @@ export default class Presentation extends React.Component {
           </Notes>
         </AboutMeSlide>
 
-        <SimpleSlide fit={false} statement="The small things are the big things?">
+
+        <ImageSlide image="immigration.jpg">
           <Notes>
-          <p> So the motivation for this talk came from my experience building ElixirBridge the past few years - but that is not where I want to begin</p>
+          <p>
+              In 1989 my family immigrated from Soviet Russia as political refugees ...
+              With very little money and very little English language - my parents - in their early 30s and me (a toddler)
+              immigrated to San Francisco - with nothing more than the belief that life would be better than in Communist Russia
+            </p>
+          </Notes>
+        </ImageSlide>
+
+
+        <SimpleSlide fit={false} statement="">
+          <Notes>
+            <p>
+              The learned the language - established themselves. assimilated. By all standards they acheived back then what the American dream meant to them
+              But they did not do it alone. We were able to immigrate because there was pressure from U.S and Israeli governments to let the Soviet Jews leave due to
+              antisemitism
+
+            </p>
           </Notes>
         </SimpleSlide>
 
-        <SimpleSlide fit={false} statement="What do I mean by that?">
+
+
+        <SimpleSlide fit={false} statement="Passed Down the code...">
           <Notes>
-          <p> So the motivation for this talk came from my experience building ElixirBridge the past few years - but that is not where I want to begin</p>
+            <p>
+              In the states they were greeted by an organized Jewish community that helped them find housing, work, school for me. How to exist in a new society-
+
+            </p>
+          </Notes>
+        </SimpleSlide>
+
+        <SimpleSlide fit={false} statement="difference">
+          <Notes>
+            <p>
+              Short story long - they had support. The etiquette of how to do things was passed along to them by those that came before them
+              paired with AMerican Jews - essentially instant friends to help learn this new life. Help explain the etiquette - the code of living in teh u.s.
+              It wasn't large sweeping chanes or initiatives that made the biggest difference. But the small day to day shows of support tha gave them access
+              to understanding how to live in the U.S.
+            </p>
+          </Notes>
+        </SimpleSlide>
+
+        <ImageSlide image="difference.jpg">
+          <Notes>
+          <p>
+              In 1989 my family immigrated from Soviet Russia as political refugees ...
+              With very little money and very little English language - my parents - in their early 30s and me (a toddler)
+              immigrated to San Francisco - with nothing more than the belief that life would be better than in Communist Russia
+            </p>
+          </Notes>
+        </ImageSlide>
+
+        <SimpleSlide fit={false} statement="">
+          <Notes>
+            <p>
+
+              TH
+            </p>
           </Notes>
         </SimpleSlide>
 
@@ -85,22 +137,46 @@ export default class Presentation extends React.Component {
         </SimpleSlide>
 
         <SimpleSlide fit={false} statement="About how we build community">
-          <Notes>
-          <p> So the motivation for this talk came from my experience building ElixirBridge the past few years - but that is not where I want to begin</p>
-          </Notes>
+
         </SimpleSlide>
 
         <SimpleSlide fit={false} statement="And how that makeup of that community ">
           <Notes>
-          <p> So the motivation for this talk came from my experience building ElixirBridge the past few years - but that is not where I want to begin</p>
           </Notes>
         </SimpleSlide>
 
         <SimpleSlide fit={false} statement="affects how we build software">
           <Notes>
+          </Notes>
+        </SimpleSlide>
+
+        <SimpleSlide fit={false} statement="The small things....">
+          <Notes>
+            <p>What seemed like simple human interactions - made all the difference</p>
+            <p> I think about my immigration story often when doing community work. </p>
+            <p>I think about things that probably seemed inconsequential to folks a the time - but made all the difference for us </p>
+            <p> So the motivation for this talk came from my experience building ElixirBridge the past few years - but that is not where I want to begin</p>
+           <p>the small eveyr day guidance and interactiosn were what helped my family to figure out how to live</p>
+           <p>I've come to realize - that in building community - the small things</p>
+          </Notes>
+        </SimpleSlide>
+
+        <SimpleSlide fit={false} statement="Are the big things?">
+          <Notes>
+          <p> So the motivation for this talk came from my experience building ElixirBridge the past few years - but that is not where I want to begin</p>
+          <p>the small eveyr day guidance and interactiosn were what helped my family to figure out how to live</p>
+          </Notes>
+        </SimpleSlide>
+
+        <SimpleSlide fit={false} statement="What do I mean by that?">
+          <Notes>
           <p> So the motivation for this talk came from my experience building ElixirBridge the past few years - but that is not where I want to begin</p>
           </Notes>
         </SimpleSlide>
+
+
+
+
 
         <QuoteSlide
           inverted
@@ -219,17 +295,10 @@ export default class Presentation extends React.Component {
         </QuoteSlide>
 
 
-        <SimpleSlide fit={false} statement="">
+        <ImageSlide image="railsbridge-workshop1.jpg">
           <Notes>
-            <p>
-              Fast forward - About 6 years ago I was transitioning careers and entering the industry
-            </p>
-          </Notes>
-        </SimpleSlide>
-
-        <SimpleSlide fit={false} statement="">
-          <Notes>
-            <p>
+          <p>
+            Fast forward - About 6 years ago I was transitioning careers and entering the industry
                 A friend suggested I check out an organization called RailsBridge. All he knew was that they did workshops for women.
                 My first workshop was incredible. The instructor was so excited that the feeling radiated through the room.
                 We all felt empowered. Confident that we could approach something that to many of us had seemed intimidating.
@@ -239,11 +308,12 @@ export default class Presentation extends React.Component {
                 a workshop setting. Again a small gesture but a feeling of being accepted into the community rather of feeling like you have been given access makes all the difference.
             </p>
           </Notes>
-        </SimpleSlide>
+        </ImageSlide>
 
-        <SimpleSlide fit={false} statement="">
+
+        <ImageSlide image="railsbridge-boston-photo.jpg">
           <Notes>
-            <p>
+          <p>
               Early on I could not yet code but I felt so supported by this community after a sinlge positive experience that I wanted to give back.
               So I started organizing workshops. There was a workshop eing held that that needed an extra organizer last minute. I decided to go help. There I met
               someone who is now one of my most valued mentors. I was still trying ot figure out how to transition into the industry. This person was already
@@ -259,20 +329,21 @@ export default class Presentation extends React.Component {
               The small human interactions end up being the big things
             </p>
           </Notes>
-        </SimpleSlide>
+        </ImageSlide>
 
-        <SimpleSlide fit={false} statement="The small thing ended up being hugely invaluable">
+        <ImageSlide image="small-things.png">
           <Notes>
-            <p>
-
+          <p>
+              The small human interactions end up being the big things
             </p>
           </Notes>
-        </SimpleSlide>
+        </ImageSlide>
+
 
         <SimpleSlide fit={false} statement="So how do we do this?">
           <Notes>
             <p>
-
+              how do we as indivdiuals effectively do the small things day to day that build the commmunity we wish to see
             </p>
           </Notes>
         </SimpleSlide>
@@ -292,19 +363,45 @@ export default class Presentation extends React.Component {
             </p>
           </Notes>
         </SimpleSlide>
-        <SimpleSlide fit={false} statement="Your mind has two systems">
+
+
+        <ImageSlide image="thinking-1.jpg">
           <Notes>
-            <p>
+          <p>
+              The small human interactions end up being the big things
+            </p>
+          </Notes>
+        </ImageSlide>
+
+        <ImageSlide image="thinking-2.jpg">
+          <Notes>
+          <p>
             Prof Daniel Kahneman, from Princeton University, started a revolution in our understanding of the human mind.
             that we actually have two systems of thinking.
             there is a battle in your mind - a battle between intuition and logic.
 
 
+            There's the deliberate,
+            logical part of your mind that is capable of analysing a problem and coming up with a rational answer.
+            This is the part of your mind that you are aware of. It's expert at solving problems, but it is slow, requires a great deal of energy, and is extremely lazy.
+             Even the act of walking is enough to occupy most of your attentive mind.
+
+             If you are asked to solve a tricky problem while walking, you will most likely stop because your attentive mind cannot attend to both tasks at the same time.
+
+             Iis intuitive, fast and automatic. This fast way of thinking is incredibly powerful, but totally hi
+            It is so powerful, it is actually responsible for most of the things that you say, do, think and believe.
             </p>
           </Notes>
-        </SimpleSlide>
+        </ImageSlide>
 
-        <SimpleSlide fit={false} statement="That part you are aware of">
+
+        {/* <SimpleSlide fit={false} statement="Your mind has two systems">
+          <Notes>
+
+          </Notes>
+        </SimpleSlide> */}
+
+        {/* <SimpleSlide fit={false} statement="That part you are aware of">
           <Notes>
             <p>
             There's the deliberate,
@@ -315,16 +412,16 @@ export default class Presentation extends React.Component {
              If you are asked to solve a tricky problem while walking, you will most likely stop because your attentive mind cannot attend to both tasks at the same time.
             </p>
           </Notes>
-        </SimpleSlide>
+        </SimpleSlide> */}
 
-        <SimpleSlide fit={false} statement="The intuitive part">
+        {/* <SimpleSlide fit={false} statement="The intuitive part">
           <Notes>
             <p>
             Iis intuitive, fast and automatic. This fast way of thinking is incredibly powerful, but totally hi
             It is so powerful, it is actually responsible for most of the things that you say, do, think and believe.
             </p>
           </Notes>
-        </SimpleSlide>
+        </SimpleSlide> */}
 
         <SimpleSlide fit={false} statement="The intuitve part is in control">
           <Notes>
@@ -1219,72 +1316,6 @@ export default class Presentation extends React.Component {
             </p>
           </Notes>
         </SimpleSlide>
-
-
-        <SimpleSlide fit={false} statement="In 1989 my family immigrated from Soviet Russia as political refugees ...">
-          <Notes>
-            <p>
-
-            </p>
-          </Notes>
-        </SimpleSlide>
-
-        <SimpleSlide fit={false} statement="">
-          <Notes>
-            <p>
-              With very little money and very little English language - my parents - in their early 30s and me (a toddler)
-              immigrated to San Francisco - with nothing more than the belief that life would be better than in Communist Russia
-
-            </p>
-          </Notes>
-        </SimpleSlide>
-
-        <SimpleSlide fit={false} statement="">
-          <Notes>
-            <p>
-              The learned the language - established themselves. assimilated. By all standards they acheived back then what the American dream meant to them
-
-            </p>
-          </Notes>
-        </SimpleSlide>
-
-        <SimpleSlide fit={false} statement="">
-          <Notes>
-            <p>
-              But they did not do it alone. We were able to immigrate because there was pressure from U.S and Israeli governments to let the Soviet Jews leave due to
-              antisemitism
-            </p>
-          </Notes>
-        </SimpleSlide>
-
-
-        <SimpleSlide fit={false} statement="Passed Down the code to live in the United States">
-          <Notes>
-            <p>
-              In the states they were greeted by an organized Jewish community that helped them find housing, work, school for me. How to exist in a new society-
-
-            </p>
-          </Notes>
-        </SimpleSlide>
-
-        <SimpleSlide fit={false} statement="">
-          <Notes>
-            <p>
-              Short story long - they had support. The etiquette of how to do things was passed along to them by those that came before them
-              paired with AMerican Jews - essentially instant friends to help learn this new life. Help explain the etiquette - the code of living in teh u.s.
-              It wasn't large sweeping chanes or initiatives that made the biggest difference. But the small day to day shows of support tha gave them access
-            </p>
-          </Notes>
-        </SimpleSlide>
-
-        <SimpleSlide fit={false} statement="">
-          <Notes>
-            <p>
-              What seemed like simple human interactions - made all the difference
-            </p>
-          </Notes>
-        </SimpleSlide>
-
 
         <SimpleSlide statement="Conclusions">
         <Notes>
