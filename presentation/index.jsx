@@ -1,40 +1,22 @@
 // Import React
 import React from 'react'
-import '../assets/prism-tomorrow-ally.css'
-
 // Import Spectacle Core tags
-import {
-  BlockQuote,
-  Cite,
-  Deck,
-  Heading,
-  ListItem,
-  List,
-  Quote,
-  Slide,
-  Text,
-  Notes
-} from 'spectacle'
-
-import AboutMeSlide from './slideTemplates/about-me-slide.jsx'
-import AboutMeSlideAnna from './slideTemplates/about-me-slide-anna.jsx'
-import QuoteSlide from './slideTemplates/quote-slide.jsx'
-import DefinitionSlide from './slideTemplates/definition-slide.jsx'
-import ListSlide from './slideTemplates/list-slide.jsx'
-import SimpleSlide from './slideTemplates/simple-slide.jsx'
-import ConceptSlide from './slideTemplates/concept-slide.jsx'
-import ImageSlide from './slideTemplates/image-slide.jsx'
-import DoubleImageSlide from './slideTemplates/double-image-slide.jsx'
-import QuotesSlide from './slideTemplates/quotes-slide.jsx'
-import colors from './slideTemplates/colors'
-import CodeSlide from 'spectacle-code-slide'
-
-// Import image preloader util
-import preloader from 'spectacle/lib/utils/preloader'
-preloader({})
+import { Deck, Notes } from 'spectacle'
 // Import theme
 import createTheme from 'spectacle/lib/themes/default'
-import aboutMeSlideAnna from './slideTemplates/about-me-slide-anna.jsx'
+// Import image preloader util
+import preloader from 'spectacle/lib/utils/preloader'
+import '../assets/prism-tomorrow-ally.css'
+import AboutMeSlide from './slideTemplates/about-me-slide.jsx'
+import colors from './slideTemplates/colors'
+import ImageSlide from './slideTemplates/image-slide.jsx'
+import QuoteSlide from './slideTemplates/quote-slide.jsx'
+import SimpleSlide from './slideTemplates/simple-slide.jsx'
+import notes from 'spectacle/lib/components/notes'
+
+
+
+preloader({})
 
 // Require CSS
 require('normalize.css')
@@ -84,7 +66,6 @@ export default class Presentation extends React.Component {
               The learned the language - established themselves. assimilated. By all standards they acheived back then what the American dream meant to them
               But they did not do it alone. We were able to immigrate because there was pressure from U.S and Israeli governments to let the Soviet Jews leave due to
               antisemitism
-
             </p>
           </Notes>
         </SimpleSlide>
@@ -107,11 +88,13 @@ export default class Presentation extends React.Component {
               paired with AMerican Jews - essentially instant friends to help learn this new life. Help explain the etiquette - the code of living in teh u.s.
               It wasn't large sweeping chanes or initiatives that made the biggest difference. But the small day to day shows of support tha gave them access
               to understanding how to live in the U.S.
+
+
             </p>
           </Notes>
         </SimpleSlide>
 
-        <ImageSlide image="difference.jpg">
+        {/* <ImageSlide image="difference.jpg">
           <Notes>
           <p>
               In 1989 my family immigrated from Soviet Russia as political refugees ...
@@ -119,29 +102,91 @@ export default class Presentation extends React.Component {
               immigrated to San Francisco - with nothing more than the belief that life would be better than in Communist Russia
             </p>
           </Notes>
+        </ImageSlide> */}
+
+        <ImageSlide image="railsbridge-workshop1.jpg">
+          <Notes>
+            <ul>
+              <li>
+              ""
+              </li>
+            </ul>
+          <p>
+            Fast forward a few decades About 6 years ago I was transitioning careers and entering the industry
+                A friend suggested I check out an organization called RailsBridge. All he knew was that they did workshops for women.
+                My first workshop was incredible. The instructor was so excited that the feeling radiated through the room.
+                We all felt empowered. Confident that we could approach something that to many of us had seemed intimidating.
+                With a very small amount of encouragement we felt empowered to do more.
+
+                After the workshop we all went to dinner as a group. This provided an opportunity to connect with the Teachers and TAs outside of
+                a workshop setting. Again a small gesture but a feeling of being accepted into the community rather of feeling like you have been given access makes all the difference.
+            </p>
+          </Notes>
+        </ImageSlide>
+
+
+        <ImageSlide image="railsbridge-boston-photo.jpg">
+          <Notes>
+          <p>
+              Early on I could not yet code but I felt so supported by this community after a sinlge positive experience that I wanted to give back.
+              So I started organizing workshops. There was a workshop eing held that that needed an extra organizer last minute. I decided to go help. There I met
+              someone who is now one of my most valued mentors. I was still trying ot figure out how to transition into the industry. This person was already
+              incredibly accomplished in the industry. I asked at the workshop if they would be willing to grab a coffee sometime so I could ask them some questions about gettign into
+              the industry. Not really knowing who I was they said yes. I still remember that coffee. While it may have been a small thing. The
+              advice I had gotten at that first meeting was incredibly motivating and valuable. But even more valuable was their support. Their willingnes
+              to explain how things worked, to how to get started was invaluable.
+
+              An explaing of the etiquette
+
+              What seemed like a small single coffee helped to propel my career
+
+              The small human interactions end up being the big things
+
+              Now my immigration story is for me a more complex story than tranisitioning to tech
+              But I realized that the things the American Jewish Community did to help build community with soviet Jews on a large scale in this country
+              applied to the same work I was doing on a much smaller scale.
+            </p>
+          </Notes>
         </ImageSlide>
 
         <SimpleSlide fit={false} statement="">
           <Notes>
             <p>
-
-              TH
+              The same principles applied
             </p>
           </Notes>
         </SimpleSlide>
 
         <SimpleSlide fit={false} statement="I have been doing a lot of thinking...">
           <Notes>
+            <ul>
+              <li>many of you know that I do a lot of work around building community</li>
+              <li>I recently gave a talk about how to build community </li>
+              <li>the sucesses and failures of ElixirBridge</li>
+              <li>the sucesses and failures of ElixirBridge</li>
+            </ul>
           <p> So the motivation for this talk came from my experience building ElixirBridge the past few years - but that is not where I want to begin</p>
           </Notes>
         </SimpleSlide>
 
         <SimpleSlide fit={false} statement="About how we build community">
+          <notes>
+            <ul>
+              <li>thinking about on my immigrant story which I'm sure has similarities and differences of with other immigrant stories</li>
+              <li>those who have helped me get started</li>
+              <li>immigrant story much more comples</li>
+              <li>but the things that faciliated sucess were very similar</li>
+              <li>and I think about on a much smaller scale the community work I have tried to do in this community</li>
+              <li>I realized that there are many parallels between what made our immigration sucessful and what has worked on a much smaller scale with ElixirBridge</li>
+              <li></li>
+            </ul>
+          </notes>
 
         </SimpleSlide>
 
         <SimpleSlide fit={false} statement="And how that makeup of that community ">
           <Notes>
+            <li>and how the makeup of the commuity really affects the how we build software</li>
           </Notes>
         </SimpleSlide>
 
@@ -152,6 +197,7 @@ export default class Presentation extends React.Component {
 
         <SimpleSlide fit={false} statement="The small things....">
           <Notes>
+            <p>I realized it's the small things</p>
             <p>What seemed like simple human interactions - made all the difference</p>
             <p> I think about my immigration story often when doing community work. </p>
             <p>I think about things that probably seemed inconsequential to folks a the time - but made all the difference for us </p>
@@ -163,8 +209,11 @@ export default class Presentation extends React.Component {
 
         <SimpleSlide fit={false} statement="Are the big things?">
           <Notes>
+            <p>that really are the pillars of how we build community</p>
           <p> So the motivation for this talk came from my experience building ElixirBridge the past few years - but that is not where I want to begin</p>
           <p>the small eveyr day guidance and interactiosn were what helped my family to figure out how to live</p>
+          <p>and this ultimately affects the software that we build</p>
+          <p>the every day interactions between humans have large effects in either a positive and negative way</p>
           </Notes>
         </SimpleSlide>
 
@@ -188,6 +237,8 @@ export default class Presentation extends React.Component {
           </div>
         </Notes>
         </QuoteSlide>
+
+
 
 
         {/* <SimpleSlide fit={false} statement="How do we build community?">
@@ -284,67 +335,49 @@ export default class Presentation extends React.Component {
         </Notes>
         </QuoteSlide>
 
+        <SimpleSlide fit={false} statement="We spend so much time thinking about the small things with regards to code">
+
+        </SimpleSlide>
+
+        <SimpleSlide fit={false} statement="What if we did that with people?">
+
+        </SimpleSlide>
+
+
+
+
+
+
         <QuoteSlide
-          quote="Sucess depends on understanding the made up rules"
+          quote="Sucess depends on understanding these somewhat arbitraty rules"
         >
         <Notes>
           <div>
-            <p>He continues to say the following </p>
+            <p>Because the industry is still overlorded by people like me, who were lucky enough to have learned the etiquette early, to even know there was an etiquette. </p>
+            <p>essentially rules that we decide on</p>
           </div>
         </Notes>
         </QuoteSlide>
 
 
-        <ImageSlide image="railsbridge-workshop1.jpg">
-          <Notes>
-          <p>
-            Fast forward - About 6 years ago I was transitioning careers and entering the industry
-                A friend suggested I check out an organization called RailsBridge. All he knew was that they did workshops for women.
-                My first workshop was incredible. The instructor was so excited that the feeling radiated through the room.
-                We all felt empowered. Confident that we could approach something that to many of us had seemed intimidating.
-                With a very small amount of encouragement we felt empowered to do more.
 
-                After the workshop we all went to dinner as a group. This provided an opportunity to connect with the Teachers and TAs outside of
-                a workshop setting. Again a small gesture but a feeling of being accepted into the community rather of feeling like you have been given access makes all the difference.
+
+        {/* <ImageSlide image="small-things.png"> */}
+          {/* <Notes>
+            <p>
+              some of use happen to be at the right place at the right time.
             </p>
+
           </Notes>
-        </ImageSlide>
+        </ImageSlide> */}
 
 
-        <ImageSlide image="railsbridge-boston-photo.jpg">
-          <Notes>
-          <p>
-              Early on I could not yet code but I felt so supported by this community after a sinlge positive experience that I wanted to give back.
-              So I started organizing workshops. There was a workshop eing held that that needed an extra organizer last minute. I decided to go help. There I met
-              someone who is now one of my most valued mentors. I was still trying ot figure out how to transition into the industry. This person was already
-              incredibly accomplished in the industry. I asked at the workshop if they would be willing to grab a coffee sometime so I could ask them some questions about gettign into
-              the industry. Not really knowing who I was they said yes. I still remember that coffee. While it may have been a small thing. The
-              advice I had gotten at that first meeting was incredibly motivating and valuable. But even more valuable was their support. Their willingnes
-              to explain how things worked, to how to get started was invaluable.
-
-              An explaing of the etiquette
-
-              What seemed like a small single coffee helped to propel my career
-
-              The small human interactions end up being the big things
-            </p>
-          </Notes>
-        </ImageSlide>
-
-        <ImageSlide image="small-things.png">
-          <Notes>
-          <p>
-              The small human interactions end up being the big things
-            </p>
-          </Notes>
-        </ImageSlide>
-
-
-        <SimpleSlide fit={false} statement="So how do we do this?">
+        <SimpleSlide fit={false} statement="So how do we do pass this etiquette on?">
           <Notes>
             <p>
               how do we as indivdiuals effectively do the small things day to day that build the commmunity we wish to see
             </p>
+            <p>this time I am not thinking about building community from the scope of an organization - but how do we as individuals do better to pass this etiquette on</p>
           </Notes>
         </SimpleSlide>
 
@@ -550,7 +583,8 @@ export default class Presentation extends React.Component {
         <SimpleSlide fit={false} statement="Respond differently to losses than gains">
           <Notes>
             <p>
-            Kahneman realised that we respond very differently to losses than to gains. We feel the pain of a loss much more than we feel the pleasure of a gain. He even worked out by how much. If you lose £10 today, you will feel the pain of the loss. But if you find some money tomorrow, you will have to find more than £20 to make up for the loss of £10.
+            Kahneman realised that we respond very differently to losses than to gains. We feel the pain of a loss much more than we feel the pleasure of a gain. He even worked out by how much. If you lose £10 today, you will feel the pain of the loss.
+            But if you find some money tomorrow, you will have to find more than £20 to make up for the loss of £10.
             This is loss aversion, and its cumulative effect can be catastrophic.
             </p>
           </Notes>
@@ -559,7 +593,8 @@ export default class Presentation extends React.Component {
         <SimpleSlide fit={false} statement="People feel empowered to make decisions when they feel confident">
           <Notes>
             <p>
-            There is actually a neuron that fires up in the brain that triggers people to take action when the brain decides it is confident of a decision. This is subjective. It’s not necessarily based on the amount of information you’ve collected — it’s a feeling of confidence.
+            There is actually a neuron that fires up in the brain that triggers people to take action when the brain decides it is confident of a decision. This is subjective.
+             It’s not necessarily based on the amount of information you’ve collected — it’s a feeling of confidence.
             </p>
           </Notes>
         </SimpleSlide>
@@ -699,6 +734,28 @@ export default class Presentation extends React.Component {
           </Notes>
         </SimpleSlide>
 
+        <SimpleSlide inverted fit={false} statement="It's still the small things">
+          <Notes>
+            <p>
+              Just the other day one of the women I follow on twitter said she is leaving the industry.
+              For an industry that prides itself on progress and innovation, having people leave rather
+              than figuring out how to make a space where they feel welcome and want to contribute is the exact
+              opposite of that
+            </p>
+          </Notes>
+        </SimpleSlide>
+
+        <SimpleSlide inverted fit={false} statement="Disruption">
+          <Notes>
+            <p>
+              our indusrty likes to think of pushing thimngs forward - of continually making progress.
+              what if we defined progress as?
+            </p>
+          </Notes>
+        </SimpleSlide>
+
+
+
         <QuoteSlide
           quote="“Progress is the opening of doors and the leveling of opportunity...
            Progress is seeing calmly, accepting, and thinking of others. - Paul Ford“"
@@ -732,7 +789,16 @@ export default class Presentation extends React.Component {
         <SimpleSlide inverted fit={false} statement="small things are the big things">
           <Notes>
             <p>
-              nerd talk example
+              nerd talk example - language matters
+            </p>
+          </Notes>
+        </SimpleSlide>
+
+        <SimpleSlide inverted fit={false} statement="small things are the big things">
+          <Notes>
+            <p>
+              accidentally promoted example - being willing to have conversations that may be uncomfortable for yo
+              but comofrtable for othres
             </p>
           </Notes>
         </SimpleSlide>
@@ -777,7 +843,7 @@ export default class Presentation extends React.Component {
           </Notes>
         </SimpleSlide>
 
-        <SimpleSlide fit={false} statement="Feeling welcome helps peopel feel confident">
+        <SimpleSlide fit={false} statement="Feeling welcome helps people feel confident">
           <Notes>
             <p>
               Providing an environment for folks to enter and feel welcome
@@ -785,19 +851,6 @@ export default class Presentation extends React.Component {
             <div> Check our own biases</div>
             <ul>who are the first 10 people your shared elixir with</ul>
             <ul>does this group reflect the commuinity with want to see</ul>
-
-          </Notes>
-        </SimpleSlide>
-
-        <SimpleSlide fit={false} statement="Provide access to effectively participate in the community">
-          <Notes>
-            <p>
-              Providing an environment for folks to enter and feel welcome
-            </p>
-            <div> Check our own biases</div>
-            <ul>who are the first 10 people your shared elixir with</ul>
-            <ul>does this group reflect the commuinity with want to see</ul>
-            <p>this doesn't just mean open source communities but also work comunit</p>
 
           </Notes>
         </SimpleSlide>
@@ -893,6 +946,19 @@ export default class Presentation extends React.Component {
                 </li>
                 <li>junior person on teh plane saves the plane</li>
               </ul>
+          </Notes>
+        </SimpleSlide>
+
+        <SimpleSlide fit={false} statement="Provide access to effectively participate in the community">
+          <Notes>
+            <p>
+              Providing an environment for folks to enter and feel welcome
+            </p>
+            <div> Check our own biases</div>
+            <ul>who are the first 10 people your shared elixir with</ul>
+            <ul>does this group reflect the commuinity with want to see</ul>
+            <p>this doesn't just mean open source communities but also work comunit</p>
+
           </Notes>
         </SimpleSlide>
 
@@ -1041,6 +1107,23 @@ export default class Presentation extends React.Component {
         </SimpleSlide>
 
 
+        <SimpleSlide inverted fit={false} statement="By making many little changes over time">
+          <Notes>
+          <ul>
+              <li>example of technology gone wrong</li>
+            </ul>
+          </Notes>
+        </SimpleSlide>
+
+        <SimpleSlide inverted fit={false} statement="By making many little changes over time">
+          <Notes>
+          <ul>
+              <li>example of technology going right</li>
+            </ul>
+          </Notes>
+        </SimpleSlide>
+
+
         <SimpleSlide inverted fit={false} statement="And is bigger than just building community that we want to see">
           <Notes>
           <ul>
@@ -1128,7 +1211,17 @@ export default class Presentation extends React.Component {
           </Notes>
         </SimpleSlide>
 
-        <SimpleSlide inverted fit={false} statement="We will not be able to understand the implications of the solutions unless we have many different people in the room">
+        <SimpleSlide inverted fit={false} statement="We will not be able to understand the implications of the solutions unless we have many different people in the room and empower them to voice their opintions">
+          <Notes>
+            <ul>
+            If nothing is done to increase water efficiency and better manage and protect both surface water and groundwater in the face of a changing climate,
+             demand could exceed current sustainable water supplies by 40 percent by 2030
+            </ul>
+          </Notes>
+        </SimpleSlide>
+
+        <SimpleSlide inverted fit={false} statement="The community we build - builds the tools to solve problems for the community. So to do this effectively the commuity building those tools needs to reflect the
+        community using them">
           <Notes>
             <ul>
             If nothing is done to increase water efficiency and better manage and protect both surface water and groundwater in the face of a changing climate,
