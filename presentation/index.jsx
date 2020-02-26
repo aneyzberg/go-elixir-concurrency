@@ -89,6 +89,7 @@ export default class Presentation extends React.Component {
               It wasn't large sweeping chanes or initiatives that made the biggest difference. But the small day to day shows of support tha gave them access
               to understanding how to live in the U.S.
 
+              Sucessfully navigate living in this new country with this new language.
 
             </p>
           </Notes>
@@ -555,7 +556,7 @@ export default class Presentation extends React.Component {
 
 
 
-        <SimpleSlide fit={false} statement="These biases are potentially deeply rooted">
+        <SimpleSlide fit={false} statement="These biases are deeply rooted">
           <Notes>
             <p>
             Dr Laurie Santos, a psychologist at Yale University, has been investigating how deep seated these biases really are. Until we know the evolutionary origins of these two systems of thinking, we won't know if we can change them.
@@ -734,7 +735,17 @@ export default class Presentation extends React.Component {
           </Notes>
         </SimpleSlide>
 
-        <SimpleSlide inverted fit={false} statement="It's still the small things">
+        <SimpleSlide inverted fit={false} statement="Disruption">
+          <Notes>
+            <p>
+              our indusrty likes to think of pushing thimngs forward - of continually making progress.
+              what if we defined progress as?
+              We often see see disruption as taking about large sweeping changes
+            </p>
+          </Notes>
+        </SimpleSlide>
+
+        <SimpleSlide inverted fit={false} statement="It goes back to the small things the small things">
           <Notes>
             <p>
               Just the other day one of the women I follow on twitter said she is leaving the industry.
@@ -744,16 +755,6 @@ export default class Presentation extends React.Component {
             </p>
           </Notes>
         </SimpleSlide>
-
-        <SimpleSlide inverted fit={false} statement="Disruption">
-          <Notes>
-            <p>
-              our indusrty likes to think of pushing thimngs forward - of continually making progress.
-              what if we defined progress as?
-            </p>
-          </Notes>
-        </SimpleSlide>
-
 
 
         <QuoteSlide
@@ -827,6 +828,8 @@ export default class Presentation extends React.Component {
             <ul>who are the first 10 people your shared elixir with</ul>
             <ul>does this group reflect the commuinity with want to see</ul>
             <ul>what does your work community look like</ul>
+            <ul>the simple task of inviting people in</ul>
+
 
           </Notes>
         </SimpleSlide>
@@ -851,6 +854,7 @@ export default class Presentation extends React.Component {
             <div> Check our own biases</div>
             <ul>who are the first 10 people your shared elixir with</ul>
             <ul>does this group reflect the commuinity with want to see</ul>
+            <ul>when folks feel confident they feel like they can actively engage in the community</ul>
 
           </Notes>
         </SimpleSlide>
@@ -865,6 +869,7 @@ export default class Presentation extends React.Component {
         <SimpleSlide fit={false} statement="Code of Conduct">
           <Notes>
             <ul>
+              <li>in rour offices creating a code of conduct</li>
               <li>Community reflective of the diversity in the general population.</li>
               <li>A harassment-free experience for everyone</li>
               <li>Everyone has something to contribute.</li>
@@ -880,6 +885,7 @@ export default class Presentation extends React.Component {
               <li>A harassment-free experience for everyone</li>
               <li>Everyone has something to contribute.</li>
               <li>Anyone is allowed to hold a workshop</li>
+              <li>Do employees at your company have to read and sign that they agree to the code of conduct</li>
             </ul>
           </Notes>
         </SimpleSlide>
@@ -914,6 +920,8 @@ export default class Presentation extends React.Component {
           </Notes>
         </SimpleSlide>
 
+
+
         <SimpleSlide inverted fit={false} statement="We want to make sure everyone is working with the same rules">
           <Notes>
           </Notes>
@@ -937,6 +945,8 @@ export default class Presentation extends React.Component {
         <SimpleSlide inverted fit={false} statement="Everyone has limited knowledge but infinite potential">
           <Notes>
               <ul>
+                <li>shifting mindset to believe everyone has limited knowledge but infinite potential</li>
+                <li>refect back on stauts distance and fluency hierarcy</li>
                 <li>key to lowering intimidation factor</li>
                 <li>people able to really learn, don't have to worry about not knowing</li>
                 <li>changes the tone of the environment</li>
@@ -958,33 +968,13 @@ export default class Presentation extends React.Component {
             <ul>who are the first 10 people your shared elixir with</ul>
             <ul>does this group reflect the commuinity with want to see</ul>
             <p>this doesn't just mean open source communities but also work comunit</p>
+            <p>Senrior folks - often when you are on a project it is easy to see a problem and just take care of it</p>
+            <p>What if you created an opportunity</p>
+            <p>for more junior folks to solve that problem. </p>
+            <p>provide opportunity for someone to build more confidence </p>
 
           </Notes>
         </SimpleSlide>
-
-        <SimpleSlide fit={false} statement="We teach people to code because we believe that...">
-          <Notes>
-              <ul>
-                <li>we saw this is crucial to companies</li>
-                <li>beneficial to community</li>
-                <li> people with diverse background and new ideas help us innovate</li>
-                <li>helps create more opportunities for community as a whole so we all benefit</li>
-              </ul>
-          </Notes>
-        </SimpleSlide>
-
-        <SimpleSlide fit={false} statement="the people making technology should accurately reflect the diversity
-              of those using it.">
-          <Notes>
-              <ul>
-                <li>we saw this is crucial to companies</li>
-                <li>beneficial to community</li>
-                <li> people with diverse background and new ideas help us innovate</li>
-                <li>helps create more opportunities for community as a whole so we all benefit</li>
-              </ul>
-          </Notes>
-        </SimpleSlide>
-
 
         <SimpleSlide fit={false} statement="Dave and Joe">
           <Notes>
@@ -1017,15 +1007,23 @@ export default class Presentation extends React.Component {
           </Notes>
         </SimpleSlide>
 
-
-        <ImageSlide image="dont-know.jpg">
+        <ImageSlide image="Language matters">
           <Notes>
             <ul>
               <li>train TAs to also ask questions</li>
               <li>modelig this behavior at work - small things = big things</li>
             </ul>
           </Notes>
+        </ImageSlide>
 
+        <ImageSlide image="dont-know.jpg">
+          <Notes>
+            <ul>
+              <li>train TAs to also ask questions</li>
+              <li>modelig this behavior at work - small things = big things</li>
+              <li>p</li>
+            </ul>
+          </Notes>
         </ImageSlide>
 
         <ImageSlide inverted image="elixirbridge-workshop.jpg">
@@ -1041,25 +1039,6 @@ export default class Presentation extends React.Component {
 
         </ImageSlide>
 
-
-        <ImageSlide image="Language matters">
-          <Notes>
-            <ul>
-              <li>train TAs to also ask questions</li>
-              <li>modelig this behavior at work - small things = big things</li>
-            </ul>
-          </Notes>
-        </ImageSlide>
-
-        <SimpleSlide inverted fit={false} statement="Access to opportunity ">
-          <Notes>
-            <ul>
-              <li>Senior people on teams creating opportunity for more junior people on teams</li>
-            </ul>
-          </Notes>
-        </SimpleSlide>
-
-
         <ImageSlide image="Opportunity to reflect">
           <Notes>
             <ul>
@@ -1067,16 +1046,43 @@ export default class Presentation extends React.Component {
               <li>modelig this behavior at work - small things = big things</li>
               <li>how is it actually going</li>
               <li>and addressing this </li>
+              <li>faciliate spaces for honest reflection</li>
+              <li>place to not let the small interactions that erode trust build into the problems that prevent a team from delivering</li>
             </ul>
           </Notes>
         </ImageSlide>
 
+        <SimpleSlide fit={false} statement="We teach people to code because we believe that...">
+          <Notes>
+              <ul>
+                <li>we saw this is crucial to companies</li>
+                <li>beneficial to community</li>
+                <li> people with diverse background and new ideas help us innovate</li>
+                <li>helps create more opportunities for community as a whole so we all benefit</li>
+              </ul>
+          </Notes>
+        </SimpleSlide>
+
+        <SimpleSlide fit={false} statement="the people making technology should accurately reflect the diversity
+              of those using it.">
+          <Notes>
+              <ul>
+                <li>we saw this is crucial to companies</li>
+                <li>beneficial to community</li>
+                <li> people with diverse background and new ideas help us innovate</li>
+                <li>helps create more opportunities for community as a whole so we all benefit</li>
+              </ul>
+          </Notes>
+        </SimpleSlide>
 
 
         <SimpleSlide inverted fit={false} statement="This stuff is not easy">
           <Notes>
           <ul>
               <li>it's not enough to do it once</li>
+              <li>I am not claiming to have all teh anwers</li>
+              <li>there is no one answer</li>
+              <li>and it takes conscious effor to do some if these things</li>
             </ul>
           </Notes>
         </SimpleSlide>
@@ -1090,7 +1096,7 @@ export default class Presentation extends React.Component {
           </Notes>
         </SimpleSlide>
 
-        <SimpleSlide inverted fit={false} statement="But as we know - the big changes happen">
+        <SimpleSlide inverted fit={false} statement="But as we know - the the only way big changes happen">
           <Notes>
           <ul>
               <li>it takes extra effort to switch our brain from doing the easy thing to thie thing that takes energy</li>
@@ -1105,26 +1111,16 @@ export default class Presentation extends React.Component {
             </ul>
           </Notes>
         </SimpleSlide>
-
-
-        <SimpleSlide inverted fit={false} statement="By making many little changes over time">
-          <Notes>
-          <ul>
-              <li>example of technology gone wrong</li>
-            </ul>
-          </Notes>
-        </SimpleSlide>
-
-        <SimpleSlide inverted fit={false} statement="By making many little changes over time">
-          <Notes>
-          <ul>
-              <li>example of technology going right</li>
-            </ul>
-          </Notes>
-        </SimpleSlide>
-
 
         <SimpleSlide inverted fit={false} statement="And is bigger than just building community that we want to see">
+          <Notes>
+          <ul>
+              <li>it takes extra effort to switch our brain from doing the easy thing to thie thing that takes energy</li>
+            </ul>
+          </Notes>
+        </SimpleSlide>
+
+        <SimpleSlide inverted fit={false} statement="Whether we like to admit it or not - our code is biased">
           <Notes>
           <ul>
               <li>it takes extra effort to switch our brain from doing the easy thing to thie thing that takes energy</li>
@@ -1140,16 +1136,10 @@ export default class Presentation extends React.Component {
           </Notes>
         </SimpleSlide>
 
+
+
         <SimpleSlide inverted fit={false} statement="it is impossible often for one human to understand all of the implications of the decsions
         we are making when we write code">
-          <Notes>
-          <ul>
-              <li>it takes extra effort to switch our brain from doing the easy thing to thie thing that takes energy</li>
-            </ul>
-          </Notes>
-        </SimpleSlide>
-
-        <SimpleSlide inverted fit={false} statement="Whether we like to admit it or not - our code is biased">
           <Notes>
           <ul>
               <li>it takes extra effort to switch our brain from doing the easy thing to thie thing that takes energy</li>
@@ -1211,7 +1201,7 @@ export default class Presentation extends React.Component {
           </Notes>
         </SimpleSlide>
 
-        <SimpleSlide inverted fit={false} statement="We will not be able to understand the implications of the solutions unless we have many different people in the room and empower them to voice their opintions">
+        <SimpleSlide inverted fit={false} statement="We will not be able to fully understand the problem or the far reaching implications of the solutions unless the folks building the tools reflect teh communities facing the problem">
           <Notes>
             <ul>
             If nothing is done to increase water efficiency and better manage and protect both surface water and groundwater in the face of a changing climate,
@@ -1220,7 +1210,7 @@ export default class Presentation extends React.Component {
           </Notes>
         </SimpleSlide>
 
-        <SimpleSlide inverted fit={false} statement="The community we build - builds the tools to solve problems for the community. So to do this effectively the commuity building those tools needs to reflect the
+        {/* <SimpleSlide inverted fit={false} statement="The community we build - builds the tools to solve problems for the community. So to do this effectively the commuity building those tools needs to reflect the
         community using them">
           <Notes>
             <ul>
@@ -1228,7 +1218,7 @@ export default class Presentation extends React.Component {
              demand could exceed current sustainable water supplies by 40 percent by 2030
             </ul>
           </Notes>
-        </SimpleSlide>
+        </SimpleSlide> */}
 
         <SimpleSlide inverted fit={false} statement="But to do this people need access to the etiquette">
           <Notes>
@@ -1244,6 +1234,12 @@ export default class Presentation extends React.Component {
             <ul>
             If nothing is done to increase water efficiency and better manage and protect both surface water and groundwater in the face of a changing climate,
              demand could exceed current sustainable water supplies by 40 percent by 2030
+             <li>focus on the small things</li>
+             <li>language that's inclusiove</li>
+             <li>creating safe spaces</li>
+             <li>providing opportunities to reflect and correct misundrestandings before they erode trust in the team</li>
+             <li>provding opportunites for others to grow</li>
+             <li>modeling behavior that it's ok not to know</li>
             </ul>
           </Notes>
         </SimpleSlide>
@@ -1269,6 +1265,26 @@ export default class Presentation extends React.Component {
           </Notes>
         </SimpleSlide>
 
+        <QuoteSlide
+          quote="“Progress is the opening of doors and the leveling of opportunity...
+           Progress is seeing calmly, accepting, and thinking of others. - Paul Ford“"
+        >
+        <Notes>
+          <div>
+            <p>We can acheieve this definition of progress </p>
+          </div>
+        </Notes>
+        </QuoteSlide>
+
+        {/* <SimpleSlide inverted fit={false} statement="Just maybe">
+          <Notes>
+            <ul>
+            If nothing is done to increase water efficiency and better manage and protect both surface water and groundwater in the face of a changing climate,
+             demand could exceed current sustainable water supplies by 40 percent by 2030
+            </ul>
+          </Notes>
+        </SimpleSlide>
+
         <SimpleSlide inverted fit={false} statement="before software eats the world">
           <Notes>
             <ul>
@@ -1285,7 +1301,7 @@ export default class Presentation extends React.Component {
              demand could exceed current sustainable water supplies by 40 percent by 2030
             </ul>
           </Notes>
-        </SimpleSlide>
+        </SimpleSlide> */}
 
 {/*
         <SimpleSlide inverted fit={false} statement="This works">
