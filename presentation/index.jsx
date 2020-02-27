@@ -60,28 +60,43 @@ export default class Presentation extends React.Component {
         </ImageSlide>
 
 
-        <SimpleSlide fit={false} statement="">
+        <ImageSlide image="immigration_2.jpg">
           <Notes>
-            <p>
+            <ul>
+              <li>
+                The american jewish community was very organizers - helped them find jobs/places to live
+              </li>
+              <li>
+                Paired us with American Jews living in San Francisco to help answer our questions/provide support as we
+                navigated liviing in a new country
+              </li>
+
+              <li>
               The learned the language - established themselves. assimilated. By all standards they acheived back then what the American dream meant to them
               But they did not do it alone. We were able to immigrate because there was pressure from U.S and Israeli governments to let the Soviet Jews leave due to
               antisemitism
-            </p>
+
+              In the states they were greeted by an organized Jewish community that helped them find housing, work, school for me.
+
+              </li>
+            </ul>
           </Notes>
-        </SimpleSlide>
+          </ImageSlide>
+
 
 
 
         <SimpleSlide fit={false} statement="Passed Down the code...">
           <Notes>
-            <p>
-              In the states they were greeted by an organized Jewish community that helped them find housing, work, school for me. How to exist in a new society-
+            <ul>
+              <li>How to exist in a new society-</li>
+            </ul>
 
-            </p>
+
           </Notes>
         </SimpleSlide>
 
-        <SimpleSlide fit={false} statement="difference">
+        {/* <SimpleSlide fit={false} statement="difference">
           <Notes>
             <p>
               Short story long - they had support. The etiquette of how to do things was passed along to them by those that came before them
@@ -93,7 +108,7 @@ export default class Presentation extends React.Component {
 
             </p>
           </Notes>
-        </SimpleSlide>
+        </SimpleSlide> */}
 
         {/* <ImageSlide image="difference.jpg">
           <Notes>
@@ -130,7 +145,7 @@ export default class Presentation extends React.Component {
           <Notes>
           <p>
               Early on I could not yet code but I felt so supported by this community after a sinlge positive experience that I wanted to give back.
-              So I started organizing workshops. There was a workshop eing held that that needed an extra organizer last minute. I decided to go help. There I met
+              So I started organizing workshops. There was a workshop being held that that needed an extra organizer last minute. I decided to go help. There I met
               someone who is now one of my most valued mentors. I was still trying ot figure out how to transition into the industry. This person was already
               incredibly accomplished in the industry. I asked at the workshop if they would be willing to grab a coffee sometime so I could ask them some questions about gettign into
               the industry. Not really knowing who I was they said yes. I still remember that coffee. While it may have been a small thing. The
@@ -150,13 +165,6 @@ export default class Presentation extends React.Component {
           </Notes>
         </ImageSlide>
 
-        <SimpleSlide fit={false} statement="">
-          <Notes>
-            <p>
-              The same principles applied
-            </p>
-          </Notes>
-        </SimpleSlide>
 
         <SimpleSlide fit={false} statement="I have been doing a lot of thinking...">
           <Notes>
@@ -171,7 +179,7 @@ export default class Presentation extends React.Component {
         </SimpleSlide>
 
         <SimpleSlide fit={false} statement="About how we build community">
-          <notes>
+          <Notes>
             <ul>
               <li>thinking about on my immigrant story which I'm sure has similarities and differences of with other immigrant stories</li>
               <li>those who have helped me get started</li>
@@ -181,7 +189,7 @@ export default class Presentation extends React.Component {
               <li>I realized that there are many parallels between what made our immigration sucessful and what has worked on a much smaller scale with ElixirBridge</li>
               <li></li>
             </ul>
-          </notes>
+          </Notes>
 
         </SimpleSlide>
 
@@ -191,7 +199,7 @@ export default class Presentation extends React.Component {
           </Notes>
         </SimpleSlide>
 
-        <SimpleSlide fit={false} statement="affects how we build software">
+        <SimpleSlide fit={false} statement="affects the software we build">
           <Notes>
           </Notes>
         </SimpleSlide>
@@ -199,12 +207,14 @@ export default class Presentation extends React.Component {
         <SimpleSlide fit={false} statement="The small things....">
           <Notes>
             <p>I realized it's the small things</p>
+            <p>the things you might not really notice that end up being the big things</p>
             <p>What seemed like simple human interactions - made all the difference</p>
             <p> I think about my immigration story often when doing community work. </p>
             <p>I think about things that probably seemed inconsequential to folks a the time - but made all the difference for us </p>
             <p> So the motivation for this talk came from my experience building ElixirBridge the past few years - but that is not where I want to begin</p>
            <p>the small eveyr day guidance and interactiosn were what helped my family to figure out how to live</p>
            <p>I've come to realize - that in building community - the small things</p>
+           <p>the things individuals can do everyday that makes the difference over time</p>
           </Notes>
         </SimpleSlide>
 
@@ -215,15 +225,36 @@ export default class Presentation extends React.Component {
           <p>the small eveyr day guidance and interactiosn were what helped my family to figure out how to live</p>
           <p>and this ultimately affects the software that we build</p>
           <p>the every day interactions between humans have large effects in either a positive and negative way</p>
+          <p>those few coffees with my now mentor - changed the course of my career</p>
+          <p>the small things that are often the hardest to quanitfy are some of the most important.</p>
           </Notes>
         </SimpleSlide>
 
-        <SimpleSlide fit={false} statement="What do I mean by that?">
+        <SimpleSlide fit={false} statement="">
+          <Notes>
+            <p>beign promoted and have that taken back</p>
+            <p></p>
+            <p>that really are the pillars of how we build community</p>
+          <p> So the motivation for this talk came from my experience building ElixirBridge the past few years - but that is not where I want to begin</p>
+          <p>the small eveyr day guidance and interactiosn were what helped my family to figure out how to live</p>
+          <p>and this ultimately affects the software that we build</p>
+          <p>the every day interactions between humans have large effects in either a positive and negative way</p>
+          <p>those few coffees with my now mentor - changed the course of my career</p>
+          <p>the small things that are often the hardest to quanitfy are some of the most important.</p>
+          </Notes>
+        </SimpleSlide>
+
+        {/* <SimpleSlide fit={false} statement="What do I mean by that?">
           <Notes>
           <p> So the motivation for this talk came from my experience building ElixirBridge the past few years - but that is not where I want to begin</p>
           </Notes>
-        </SimpleSlide>
+        </SimpleSlide> */}
 
+        {/* <SimpleSlide fit={false} statement="What do I mean by that?">
+          <Notes>
+          <p> So the motivation for this talk came from my experience building ElixirBridge the past few years - but that is not where I want to begin</p>
+          </Notes>
+        </SimpleSlide> */}
 
 
 
@@ -306,6 +337,16 @@ export default class Presentation extends React.Component {
         </QuoteSlide>
 
         <QuoteSlide
+          quote="“Which also means who is in, and who is out. - Paul Ford“"
+        >
+        <Notes>
+          <div>
+            <p>He continues to say the following </p>
+          </div>
+        </Notes>
+        </QuoteSlide>
+
+        <QuoteSlide
           quote="“the customary code of polite behavior in society or among members of a particular profession or group.- Wikipedia“"
         >
         <Notes>
@@ -327,29 +368,6 @@ export default class Presentation extends React.Component {
         </QuoteSlide>
 
         <QuoteSlide
-          quote="“Which also means who is in, and who is out. - Paul Ford“"
-        >
-        <Notes>
-          <div>
-            <p>He continues to say the following </p>
-          </div>
-        </Notes>
-        </QuoteSlide>
-
-        <SimpleSlide fit={false} statement="We spend so much time thinking about the small things with regards to code">
-
-        </SimpleSlide>
-
-        <SimpleSlide fit={false} statement="What if we did that with people?">
-
-        </SimpleSlide>
-
-
-
-
-
-
-        <QuoteSlide
           quote="Sucess depends on understanding these somewhat arbitraty rules"
         >
         <Notes>
@@ -359,6 +377,23 @@ export default class Presentation extends React.Component {
           </div>
         </Notes>
         </QuoteSlide>
+
+
+
+        <SimpleSlide fit={false} statement="We spend so much time thinking about the small things with regards to code">
+
+        </SimpleSlide>
+
+        <SimpleSlide fit={false} statement="What if we paid just as much attention thinking about the small things with regards people?">
+
+        </SimpleSlide>
+
+
+
+
+
+
+
 
 
 
@@ -420,7 +455,10 @@ export default class Presentation extends React.Component {
             This is the part of your mind that you are aware of. It's expert at solving problems, but it is slow, requires a great deal of energy, and is extremely lazy.
              Even the act of walking is enough to occupy most of your attentive mind.
 
-             If you are asked to solve a tricky problem while walking, you will most likely stop because your attentive mind cannot attend to both tasks at the same time.
+             If you are asked to solve a tricky problem while walking, you will most likely stop because your attentive mind cannot attend to
+             both tasks at the same time.
+
+             Dad aand hiking
 
              Iis intuitive, fast and automatic. This fast way of thinking is incredibly powerful, but totally hi
             It is so powerful, it is actually responsible for most of the things that you say, do, think and believe.
@@ -462,7 +500,7 @@ export default class Presentation extends React.Component {
           <Notes>
           <p>
           <p>
-            IMost of the time, our fast, intuitive mind is in control, efficiently taking charge of all the thousands of decisions we make each day.
+            Most of the time, our fast, intuitive mind is in control, efficiently taking charge of all the thousands of decisions we make each day.
             </p>
             </p>
           </Notes>
@@ -476,22 +514,27 @@ export default class Presentation extends React.Component {
 
         <ImageSlide image="decision.jpg">
           <Notes>
-          <p>
-            IMost of the time, our fast, intuitive mind is in control, efficiently taking charge of all the thousands of decisions we make each day.
 
-              study in nature magazine that tested
+            <ul>
+              <li>Most of the time, our fast, intuitive mind is in control, efficiently taking charge of all the thousands of decisions we make each day.</li>
+              <li>study in nature magazine that had people look at a streaming screen of letters and choose a letter by either pressing the right or left controls.
+              They would see letters streaming adn then press teh buttong whenever they felt like it. And were asked to remember which letter was on teh screen after
+              they had pressed it. Then pressed a button to confirm which letter was on the screen.
+              After doing this a single time - there would be a period of break and then letters would start streaming Again
+              </li>
+              <li>
+              Consistently ares of the brain would light up that predicted when a person was going to press a button 7 to 10 s before they actually were aware adn pressing it.
+              They were doing this while scans of their brain were being taken
+
               researchers could predict what choice people would make 7-10 seconds before they themselves were even aware of having made a decision. This means that even when people think they are making a conscious, logical, decision,
               chances are that they aren’t aware that they’ve already made a decision and that it was unconscious. We aren’t even aware of our own process.
+              </li>
+            </ul>
 
-            </p>
+
+
           </Notes>
         </ImageSlide>
-
-        <SimpleSlide fit={false} statement="While we don't like to think about not being in control of our decision making">
-          <Notes>
-
-          </Notes>
-        </SimpleSlide>
 
         <ImageSlide image="decision_made.png">
           <Notes>
@@ -505,7 +548,7 @@ export default class Presentation extends React.Component {
           </Notes>
         </ImageSlide>
 
-        <SimpleSlide fit={false} statement="The problem begins">
+        <SimpleSlide inverted fit={false} statement="The problem begins">
           <Notes>
             <p>
             he problem comes when we allow our fast, intuitive system to make decisions that we really should pass over to our slow, logical system. This is where the mistakes creep in.
@@ -514,10 +557,13 @@ export default class Presentation extends React.Component {
         </SimpleSlide>
 
 
-        <SimpleSlide fit={false} statement="The way our minds work springs from the mistakes that we make. Not random mistakes, but systematic errors that we all make, all the time, without realising.">
+        <SimpleSlide fit={false} statement="The way our minds work springs from the mistakes that we make.">
           <Notes>
-            <p>
-            </p>
+            <ul>
+              <li>
+                Not random mistakes, but systematic errors that we all make, all the time, without realising.
+              </li>
+            </ul>
           </Notes>
         </SimpleSlide>
 
@@ -530,7 +576,7 @@ export default class Presentation extends React.Component {
           </Notes>
         </ImageSlide>
 
-        <ImageSlide image="present_bias.jpeg">
+        <ImageSlide image="present_bias.jpg">
           <Notes>
           <p>
             The "present bias" causes us to pay attention to what is happening now, but not to worry about the future. If I offer you half a box of chocolates in a year's time, or a whole box in a year and a day,
@@ -558,20 +604,21 @@ export default class Presentation extends React.Component {
 
         <SimpleSlide fit={false} statement="These biases are deeply rooted">
           <Notes>
+            <ul>
+              <li>Dr Laurie Santos, a psychologist at Yale University, has been investigating how deep seated these biases really are. Until we know the evolutionary origins of these two systems of thinking, we won't know if we can change them.
+              <li> Dr Santos taught a troop of monkeys to use money. It's called monkeynomics, and she wanted to find out whether monkeys would make the same stupid mistakes as humans. She taught the monkeys to use tokens to buy treats, and found that monkeys also show loss aversion -
+              making the same mistakes as humans.</li>
+
+            <li></li>Her conclusion is that these biases are so deep rooted in our evolutionary past, they may be impossible to change.</li>
+            </ul>
             <p>
-            Dr Laurie Santos, a psychologist at Yale University, has been investigating how deep seated these biases really are. Until we know the evolutionary origins of these two systems of thinking, we won't know if we can change them.
 
-            Dr Santos taught a troop of monkeys to use money. It's called monkeynomics, and she wanted to find out whether monkeys would make the same stupid mistakes as humans. She taught the monkeys to use tokens to buy treats, and found that monkeys also show loss aversion -
-              making the same mistakes as humans.
 
-            Her conclusion is that these biases are so deep rooted in our evolutionary past, they may be impossible to change.
-
-          "What we learn from the monkeys is that if this bias is really that old, if we really have had this strategy for the last 35 million years, simply deciding to overcome it is just not going to work. We need other ways to make ourselves avoid some of these pitfalls," she explained.
             </p>
           </Notes>
         </SimpleSlide>
 
-        <SimpleSlide fit={false} statement="While we don't like to think about not being in control of our decision making">
+        {/* <SimpleSlide fit={false} statement="While we don't like to think about not being in control of our decision making">
           <Notes>
             <p>
               study in nature magazine that tested
@@ -579,7 +626,7 @@ export default class Presentation extends React.Component {
               chances are that they aren’t aware that they’ve already made a decision and that it was unconscious. We aren’t even aware of our own process.
             </p>
           </Notes>
-        </SimpleSlide>
+        </SimpleSlide> */}
 
         <SimpleSlide fit={false} statement="Respond differently to losses than gains">
           <Notes>
@@ -588,15 +635,18 @@ export default class Presentation extends React.Component {
             But if you find some money tomorrow, you will have to find more than £20 to make up for the loss of £10.
             This is loss aversion, and its cumulative effect can be catastrophic.
             </p>
+
+            <p>Negative experiences way more heavily in individuals than positive ones</p>
           </Notes>
         </SimpleSlide>
 
         <SimpleSlide fit={false} statement="People feel empowered to make decisions when they feel confident">
           <Notes>
-            <p>
-            There is actually a neuron that fires up in the brain that triggers people to take action when the brain decides it is confident of a decision. This is subjective.
-             It’s not necessarily based on the amount of information you’ve collected — it’s a feeling of confidence.
-            </p>
+            <ul>
+              <li>another study in journal of physiology - Confidence-Related Decision Making </li>
+              <li>There is actually a neuron that fires up in the brain that triggers people to take action when the brain decides it is confident of a decision. This is subjective.</li>
+              <li>It’s not necessarily based on the amount of information you’ve collected — it’s a feeling of confidence.</li>
+            </ul>
           </Notes>
         </SimpleSlide>
 
@@ -669,6 +719,7 @@ export default class Presentation extends React.Component {
         <ImageSlide image="fluency-heuristic.png">
           <Notes>
             <ul>
+              <li>term in psychology</li>
               <li>the more fluently, smoothly, or quickly we process something the more value we place on it</li>
               <li>this leads to bias</li>
               <li>often people who need to be heard are not</li>
@@ -677,6 +728,8 @@ export default class Presentation extends React.Component {
               </li>
               <li> gender differences in behavior drive gender differences in outcomes
                  at one of our client organizations, a large multinational firm, where women were underrepresented in upper management.</li>
+                 <li>there were now differences in behavior</li>
+                 <li>gender differences may lie not in how women act but in how people perceive their actions.</li>
                  <li>the intutive part of our brain</li>
             </ul>
           </Notes>
@@ -745,18 +798,6 @@ export default class Presentation extends React.Component {
           </Notes>
         </SimpleSlide>
 
-        <SimpleSlide inverted fit={false} statement="It goes back to the small things the small things">
-          <Notes>
-            <p>
-              Just the other day one of the women I follow on twitter said she is leaving the industry.
-              For an industry that prides itself on progress and innovation, having people leave rather
-              than figuring out how to make a space where they feel welcome and want to contribute is the exact
-              opposite of that
-            </p>
-          </Notes>
-        </SimpleSlide>
-
-
         <QuoteSlide
           quote="“Progress is the opening of doors and the leveling of opportunity...
            Progress is seeing calmly, accepting, and thinking of others. - Paul Ford“"
@@ -767,6 +808,20 @@ export default class Presentation extends React.Component {
           </div>
         </Notes>
         </QuoteSlide>
+
+        {/* <SimpleSlide inverted fit={false} statement="It goes back to the small things the small things">
+          <Notes>
+            <p>
+              Just the other day one of the women I follow on twitter said she is leaving the industry.
+              For an industry that prides itself on progress and innovation, having people leave rather
+              than figuring out how to make a space where they feel welcome and want to contribute is the exact
+              opposite of that
+            </p>
+          </Notes>
+        </SimpleSlide> */}
+
+
+
 
         <QuoteSlide
           quote="“If bitcoin can be real money, then fairness can be a real goal.-Paul Ford“"
@@ -787,15 +842,15 @@ export default class Presentation extends React.Component {
         </SimpleSlide>
 
 
-        <SimpleSlide inverted fit={false} statement="small things are the big things">
+        {/* <SimpleSlide inverted fit={false} statement="Language matters">
           <Notes>
             <p>
               nerd talk example - language matters
             </p>
           </Notes>
-        </SimpleSlide>
+        </SimpleSlide> */}
 
-        <SimpleSlide inverted fit={false} statement="small things are the big things">
+        {/* <SimpleSlide inverted fit={false} statement="small things are the big things">
           <Notes>
             <p>
               accidentally promoted example - being willing to have conversations that may be uncomfortable for yo
@@ -817,7 +872,7 @@ export default class Presentation extends React.Component {
               nerd talk example
             </p>
           </Notes>
-        </SimpleSlide>
+        </SimpleSlide> */}
 
         <SimpleSlide fit={false} statement="Providing an environment for folks to enter">
           <Notes>
@@ -972,6 +1027,7 @@ export default class Presentation extends React.Component {
             <p>What if you created an opportunity</p>
             <p>for more junior folks to solve that problem. </p>
             <p>provide opportunity for someone to build more confidence </p>
+            <p></p>
 
           </Notes>
         </SimpleSlide>
